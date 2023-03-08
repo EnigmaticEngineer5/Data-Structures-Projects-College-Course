@@ -6,7 +6,7 @@
 class BookList
 {
 private:
-	static const int MAX_CAPACITY{ 5 };
+	static constexpr const int MAX_CAPACITY{ 5 };
 	int top;
 	std::string books[MAX_CAPACITY];
 
@@ -20,7 +20,7 @@ public:
 	const int getCurrentSize() const;
 	const bool addBook(const std::string);
 	const int containsBook(const std::string) const;
-	void removeBook(const std::string);
+	const bool removeBook(const std::string);
 	void displayBooks() const;
 
 	std::string& operator [] (const int&);

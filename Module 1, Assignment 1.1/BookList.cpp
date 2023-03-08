@@ -2,132 +2,194 @@
 
 BookList::BookList() : top{}
 {
-    std::cout << "\nDefault constructor invoked...";
-    for (auto& it : books)
-    {
-        it = "";
-    }
+	for (auto& title : books)
+	{
+		title = "";
+	}
 }
 
 BookList::BookList(const std::string sourceBooks[], const int sourceDimension) : top{ sourceDimension }
 {
-    std::cout << "\nParametrized constructor invoked...";
-    for (size_t i{}; i < sourceDimension; i++)
-    {
-        books[i] = sourceBooks[i];
-    }
+	if (getCurrentSize() > MAX_CAPACITY)
+	{
+		throw new std::out_of_range("Max capacity reached...");
+	}
+
+	int j{};
+	for (int i{ (MAX_CAPACITY - getCurrentSize()) }; i < MAX_CAPACITY; i++)
+	{
+		this->books[i] = sourceBooks[j];
+		j++;
+	}
 }
 
-BookList::BookList(const BookList& sourceBookList) : top{ sourceBookList.top }
+BookList::BookList(const BookList& sourceBookList) : top{ sourceBookList.getCurrentSize() }
 {
-    std::cout << "\nCopy constructor invoked...";
-    for (size_t i{}; i < top; i++)
-    {
-        books[i] = sourceBookList.books[i];
-    }
+	std::cout << "\nCopy constructor invoked...";
+
+	int j{};
+	for (int i{ (MAX_CAPACITY - getCurrentSize()) }; i < MAX_CAPACITY; i++)
+	{
+		this->books[i] = sourceBookList.books[j];
+		j++;
+	}
 }
 
 const bool BookList::isEmpty() const
 {
-    int counter{};
-    for (const auto& it : books)
-    {
-        if (it.empty())
-        {
-            counter++;
-        }
-    }
+	int emptyStringsFound{};
+	for (const auto& title : books)
+	{
+		if (title.empty())
+		{
+			emptyStringsFound++;
+		}
+	}
 
-    if (counter == top)
-    {
-        true;
-    }
-    else
-    {
-        false;
-    }
+	if (emptyStringsFound == MAX_CAPACITY)
+	{
+		return true;
+	}
+
+	return false;
 }
 
 const bool BookList::isFull() const
 {
-    int counter{};
-    for (const auto& it : books)
-    {
-        if (!it.empty())
-        {
-            counter++;
-        }
-    }
+	int fullStringsFound{};
+	for (const auto& title : books)
+	{
+		if (!title.empty())
+		{
+			fullStringsFound++;
+		}
+	}
 
-    if (counter == top)
-    {
-        true;
-    }
-    else
-    {
-        false;
-    }
+	if (fullStringsFound == MAX_CAPACITY)
+	{
+		return true;
+	}
+
+	return false;
 }
 
 const int BookList::getCurrentSize() const
 {
-    return top;
+	return top;
 }
 
-const bool BookList::addBook(const std::string)
+const bool BookList::addBook(const std::string sourceTitle)
 {
-    return false;
+	if (!isFull())
+	{
+		top++;
+		int i{ (MAX_CAPACITY - getCurrentSize()) };
+		while (i < MAX_CAPACITY)
+		{
+			if (i < MAX_CAPACITY - 1)
+			{
+				this->books[i] = books[(i + 1)];
+			}
+			else if (i == MAX_CAPACITY - 1)
+			{
+				this->books[i] = sourceTitle;
+			}
+
+			i++;
+		}
+		return true;
+	}
+
+	std::cout << "\nUnable to insert book, the list is full...";
+
+	return false;
 }
 
 const int BookList::containsBook(const std::string sourceTitle) const
 {
-    int left{}, right{ (top - 1) };
+	for (int i{ (MAX_CAPACITY - getCurrentSize()) }; i < MAX_CAPACITY; i++)
+	{
+		if (books[i].compare(sourceTitle) == 0)
+		{
+			std::cout << "\n\tBook found in cell #" << i;
+			return i;
+		}
+	}
 
-    while (left <= right)
-    {
-        int middle{ ((left + right) / 2) };
+	std::cout << "\nThe book was not found...";
 
-        if (books[middle].compare(sourceTitle) == 0)
-        {
-            return middle;
-        }
-        else if (books[middle].compare(sourceTitle) < 0)
-        {
-            right = (middle - 1);
-        }
-        else
-        {
-            left = (middle + 1);
-        }
-    }
-
-    return -1;
+	return -1;
 }
 
-void BookList::removeBook(const std::string sourceName)
+const bool BookList::removeBook(const std::string sourceName)
 {
+	if (isEmpty())
+	{
+		std::cout << "\nNo books to remove, the list is empty...";
+	}
+	else
+	{
+		int position{ containsBook(sourceName) };
+		BookList temporaryList{};
 
+		if (position != 1)
+		{
+			for (int i{ (MAX_CAPACITY - getCurrentSize()) }; i < MAX_CAPACITY; i++)
+			{
+				if (i == position)
+				{
+					std::cout << "\n\tBook removed...";
+				}
+				else
+				{
+					temporaryList.addBook(books[i]);
+				}
+			}
+
+			books->erase();
+			top--;
+			for (int i{ (MAX_CAPACITY - getCurrentSize() - 1) }; i < MAX_CAPACITY; i++)
+			{
+				this->books[i] = temporaryList[i];
+			}
+
+			return true;
+		}
+	}
+
+	return false;
 }
 
 void BookList::displayBooks() const
 {
+	std::cout << "The books saved on the list are:";
+	for (const auto& it : books)
+	{
+		std::cout << "\n\t- " << it;
+	}
 }
 
-std::string& BookList::operator[](const int&)
+std::string& BookList::operator [] (const int& index)
 {
-    // TODO: insert return statement here
+	if (index < 0 || index >= MAX_CAPACITY)
+	{
+		throw new std::out_of_range("Bounds exceeded...");
+	}
+
+	return books[index];
 }
 
-BookList::~BookList()
+std::istream& operator>>(std::istream& input, BookList& sourceList)
 {
+	return input;
 }
 
-std::istream& operator>>(std::istream&, BookList&)
+std::ostream& operator<<(std::ostream& output, const BookList& sourceList)
 {
-    // TODO: insert return statement here
+	return output;
 }
 
-std::ostream& operator<<(std::ostream&, const BookList&)
-{
-    // TODO: insert return statement here
-}
+BookList::~BookList() 
+{ 
+	books->erase();
+};
