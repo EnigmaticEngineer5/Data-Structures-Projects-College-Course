@@ -1,25 +1,19 @@
 #include "BookList.h"
 
-BookList::BookList() : top{}
-{
-	for (auto& title : books)
-	{
-		title = "";
-	}
-}
+BookList::BookList() : books{}, top{} {};
 
-BookList::BookList(const std::string sourceBooks[], const int sourceDimension) : top{ sourceDimension }
+BookList::BookList(const std::string sourceBooks[], const size_t sourceDimension) : top{ sourceDimension }
 {
 	if (getCurrentSize() > MAX_CAPACITY)
 	{
 		throw new std::out_of_range("Max capacity reached...");
 	}
 
-	int j{};
-	for (int i{ (MAX_CAPACITY - getCurrentSize()) }; i < MAX_CAPACITY; i++)
+	size_t j{ (getCurrentSize() - 1) };
+	for (size_t i{}; i < getCurrentSize(); i++)
 	{
 		this->books[i] = sourceBooks[j];
-		j++;
+		j--;
 	}
 }
 
@@ -27,11 +21,11 @@ BookList::BookList(const BookList& sourceBookList) : top{ sourceBookList.getCurr
 {
 	std::cout << "\nCopy constructor invoked...";
 
-	int j{};
-	for (int i{ (MAX_CAPACITY - getCurrentSize()) }; i < MAX_CAPACITY; i++)
+	size_t j{ (getCurrentSize() - 1) };
+	for (size_t i{}; i < getCurrentSize(); i++)
 	{
 		this->books[i] = sourceBookList.books[j];
-		j++;
+		j--;
 	}
 }
 
@@ -73,7 +67,7 @@ const bool BookList::isFull() const
 	return false;
 }
 
-const int BookList::getCurrentSize() const
+const size_t BookList::getCurrentSize() const
 {
 	return top;
 }
@@ -83,20 +77,17 @@ const bool BookList::addBook(const std::string sourceTitle)
 	if (!isFull())
 	{
 		top++;
-		int i{ (MAX_CAPACITY - getCurrentSize()) };
-		while (i < MAX_CAPACITY)
-		{
-			if (i < MAX_CAPACITY - 1)
-			{
-				this->books[i] = books[(i + 1)];
-			}
-			else if (i == MAX_CAPACITY - 1)
-			{
-				this->books[i] = sourceTitle;
-			}
 
-			i++;
+		if (getCurrentSize() > 1)
+		{
+			size_t i{ getCurrentSize() - 1 };
+			while (i-- > 0)
+			{
+				std::swap(books[i], books[i + 1]);
+			}
 		}
+		this->books[0] = sourceTitle;
+
 		return true;
 	}
 
@@ -105,19 +96,26 @@ const bool BookList::addBook(const std::string sourceTitle)
 	return false;
 }
 
-const int BookList::containsBook(const std::string sourceTitle) const
+const size_t BookList::containsBook(const std::string sourceTitle) const
 {
-	for (int i{ (MAX_CAPACITY - getCurrentSize()) }; i < MAX_CAPACITY; i++)
+	if (!isEmpty() && getCurrentSize() > 1)
 	{
-		if (books[i].compare(sourceTitle) == 0)
+		for (size_t i{}; i < getCurrentSize(); i++)
 		{
-			std::cout << "\n\tBook found in cell #" << i;
-			return i;
+			if (books[i].compare(sourceTitle) == 0)
+			{
+				std::cout << "\nThe book was found in position #" << i;
+				return i;
+			}
 		}
+	}
+	else if (!isEmpty() && getCurrentSize() == 1)
+	{
+		std::cout << "\nThere is only one book...";
+		return 0;
 	}
 
 	std::cout << "\nThe book was not found...";
-
 	return -1;
 }
 
@@ -127,34 +125,46 @@ const bool BookList::removeBook(const std::string sourceName)
 	{
 		std::cout << "\nNo books to remove, the list is empty...";
 	}
+	else if (getCurrentSize() == 1)
+	{
+		books->erase();
+		std::cout << "\nOnly book removed...";
+		return true;
+	}
 	else
 	{
-		int position{ containsBook(sourceName) };
-		BookList temporaryList{};
+		size_t position{ containsBook(sourceName) };
 
-		if (position != 1)
+		if (position != -1)
 		{
-			for (int i{ (MAX_CAPACITY - getCurrentSize()) }; i < MAX_CAPACITY; i++)
+			BookList temporaryList{};
+
+			size_t i{ getCurrentSize() };
+			while (i-- > 0)
 			{
-				if (i == position)
+				if (i != position)
 				{
-					std::cout << "\n\tBook removed...";
+					temporaryList.addBook(this->books[i]);
 				}
 				else
 				{
-					temporaryList.addBook(books[i]);
+					std::cout << "\nBook removed...";
 				}
 			}
 
-			books->erase();
 			top--;
-			for (int i{ (MAX_CAPACITY - getCurrentSize() - 1) }; i < MAX_CAPACITY; i++)
+			for (auto& it : this->books)
+			{
+				it = "";
+			}
+
+			for (size_t i{}; i < getCurrentSize(); i++)
 			{
 				this->books[i] = temporaryList[i];
 			}
-
-			return true;
 		}
+
+		return true;
 	}
 
 	return false;
@@ -162,10 +172,17 @@ const bool BookList::removeBook(const std::string sourceName)
 
 void BookList::displayBooks() const
 {
-	std::cout << "The books saved on the list are:";
-	for (const auto& it : books)
+	if (!isEmpty())
 	{
-		std::cout << "\n\t- " << it;
+		std::cout << "\nThe books saved on the list are:";
+		for (const auto& it : books)
+		{
+			std::cout << "\n\t- " << it;
+		}
+	}
+	else
+	{
+		std::cout << "\nThe list is empty...";
 	}
 }
 
@@ -179,17 +196,30 @@ std::string& BookList::operator [] (const int& index)
 	return books[index];
 }
 
-std::istream& operator>>(std::istream& input, BookList& sourceList)
+std::istream& operator >> (std::istream& input, BookList& sourceList)
 {
+	if (sourceList.isFull())
+	{
+		std::cout << "\nList is full...";
+		return input;
+	}
+
+	std::cout << "\n\t- Enter the TITLE of the book you want to add --> ";
+	std::string title{};
+	getline(std::cin >> std::ws, title);
+	sourceList.addBook(title);
+
 	return input;
 }
 
-std::ostream& operator<<(std::ostream& output, const BookList& sourceList)
+std::ostream& operator << (std::ostream& output, const BookList& sourceList)
 {
+	sourceList.displayBooks();
 	return output;
 }
 
-BookList::~BookList() 
-{ 
+BookList::~BookList()
+{
+	std::cout << "\nObject released...";
 	books->erase();
 };

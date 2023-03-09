@@ -7,19 +7,19 @@ class BookList
 {
 private:
 	static constexpr const int MAX_CAPACITY{ 5 };
-	int top;
+	size_t top;
 	std::string books[MAX_CAPACITY];
 
 public:
 	BookList();
-	BookList(const std::string[], const int);
+	BookList(const std::string[], const size_t);
 	BookList(const BookList&);
 
 	const bool isEmpty() const;
 	const bool isFull() const;
-	const int getCurrentSize() const;
+	const size_t getCurrentSize() const;
 	const bool addBook(const std::string);
-	const int containsBook(const std::string) const;
+	const size_t containsBook(const std::string) const;
 	const bool removeBook(const std::string);
 	void displayBooks() const;
 
