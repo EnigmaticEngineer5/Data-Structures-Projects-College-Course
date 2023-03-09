@@ -1,0 +1,326 @@
+Welcome to the book list program!
+Default constructor invoked...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the TITLE of the book you want to add --> Narnia
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the TITLE of the book you want to add --> Legacies
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the TITLE of the book you want to add --> Can't Hurt Me
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the TITLE of the book you want to add --> The Originals
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - The Originals
+        - Can't Hurt Me
+        - Legacies
+        - Narnia
+        -
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the TITLE of the book you want to add --> 25/7
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - 25/7
+        - The Originals
+        - Can't Hurt Me
+        - Legacies
+        - Narnia
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+List is full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 2
+
+        - Enter the title of the book you want to SEARCH --> Narnia
+
+The book was found in position #4 of the array...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+        - Enter the title of the book you want to REMOVE --> Legacies
+
+The book was found in position #3 of the array...
+Default constructor invoked...
+Book removed...
+Object released...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - 25/7
+        - The Originals
+        - Can't Hurt Me
+        - Narnia
+        -
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 4
+
+The list is not full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 5
+
+The list is not empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the TITLE of the book you want to add --> Legacies
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - Legacies
+        - 25/7
+        - The Originals
+        - Can't Hurt Me
+        - Narnia
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 4
+
+List is full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> Input
+
+Only integer input accepted! Re-enter --> 8
+
+Invalid range, please re-enter a valid option --> 1
+
+List is full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 2
+
+        - Enter the title of the book you want to SEARCH --> The Originals
+
+The book was found in position #2 of the array...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - Legacies
+        - 25/7
+        - The Originals
+        - Can't Hurt Me
+        - Narnia
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+        - Enter the title of the book you want to REMOVE --> The Originals
+
+The book was found in position #2 of the array...
+Default constructor invoked...
+Book removed...
+Object released...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - Legacies
+        - 25/7
+        - Can't Hurt Me
+        - Narnia
+        -
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 7
+
+Ending program...
+
+
+Object released...
+C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\x64\Debug\Module 1, Assignment 1.1.exe (process 19252) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

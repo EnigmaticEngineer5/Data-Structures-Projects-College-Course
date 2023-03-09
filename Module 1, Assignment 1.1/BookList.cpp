@@ -1,6 +1,9 @@
 #include "BookList.h"
 
-BookList::BookList() : books{}, top{} {};
+BookList::BookList() : books{}, top{}
+{
+	std::cout << "\nDefault constructor invoked...";
+};
 
 BookList::BookList(const std::string sourceBooks[], const size_t sourceDimension) : top{ sourceDimension }
 {
@@ -104,7 +107,7 @@ const size_t BookList::containsBook(const std::string sourceTitle) const
 		{
 			if (books[i].compare(sourceTitle) == 0)
 			{
-				std::cout << "\nThe book was found in position #" << i;
+				std::cout << "\nThe book was found in position #" << i << " of the array...";
 				return i;
 			}
 		}
@@ -127,8 +130,11 @@ const bool BookList::removeBook(const std::string sourceName)
 	}
 	else if (getCurrentSize() == 1)
 	{
-		books->erase();
 		std::cout << "\nOnly book removed...";
+		for (auto& it : this->books)
+		{
+			it = "";
+		}
 		return true;
 	}
 	else
