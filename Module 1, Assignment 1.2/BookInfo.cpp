@@ -2,13 +2,13 @@
 
 BookInfo::BookInfo() : title{}, author{}, publisher{} 
 { 
-	/*cout << "\nBookInfo default constructor invoked...";*/
+	cout << "\nBookInfo default constructor invoked...";
 };
 
 BookInfo::BookInfo(const string sourceTitle, const string sourceAuthor, const string sourcePublisher) :
 	title{ sourceTitle }, author{ sourceAuthor }, publisher{ sourcePublisher } 
 {
-	//cout << "\nBookInfo parametrized constructor invoked...";
+	cout << "\nBookInfo parametrized constructor invoked...";
 };
 
 BookInfo::BookInfo(const BookInfo& sourceBook) : 
@@ -16,7 +16,7 @@ BookInfo::BookInfo(const BookInfo& sourceBook) :
 	author{ sourceBook.getAuthor() }, 
 	publisher{ sourceBook.getPublisher() } 
 {
-	//cout << "\nBookInfo copy constructor invoked...";
+	cout << "\nBookInfo copy constructor invoked...";
 };
 
 BookInfo::~BookInfo()

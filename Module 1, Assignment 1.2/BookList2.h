@@ -62,13 +62,13 @@ public:
 template<class T, int MAX_CAPACITY>
 inline BookList<T, MAX_CAPACITY>::BookList() : books{}, top{} 
 { 
-	/*cout << "\nBookList default constructor invoked...";*/
+	cout << "\nBookList default constructor invoked...";
 };
 
 template<class T, int MAX_CAPACITY>
 inline BookList<T, MAX_CAPACITY>::BookList(const T sourceBooks[], const size_t sourceTop) : top{ sourceTop }
 {
-	//cout << "\nBookList parametrized constructor invoked...";
+	cout << "\nBookList parametrized constructor invoked...";
 	if (getCurrentSize() > MAX_CAPACITY)
 	{
 		throw new out_of_range("Max capacity reached...");
@@ -85,7 +85,7 @@ inline BookList<T, MAX_CAPACITY>::BookList(const T sourceBooks[], const size_t s
 template<class T, int MAX_CAPACITY>
 inline BookList<T, MAX_CAPACITY>::BookList(const BookList& sourceBookList) : top{ sourceBookList.getCurrentSize() }
 {
-	//cout << "\nBookList Copy constructor invoked...";
+	cout << "\nBookList Copy constructor invoked...";
 
 	size_t j{ (getCurrentSize() - 1) };
 	for (size_t i{}; i < getCurrentSize(); i++)

@@ -1,0 +1,668 @@
+Welcome to the book list program!
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 2
+
+The list is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The list is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 4
+
+The list is not full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 5
+
+The list is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The list is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 8
+
+Invalid range, please re-enter a valid option --> 0
+
+Invalid range, please re-enter a valid option --> Input
+
+Only integer input accepted! Re-enter --> 1
+
+        - Enter the BOOK TITLE --> The Originals
+        - Enter the BOOK AUTHOR --> Julie Plec
+        - Enter the BOOK PUBLISHER --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 2
+
+There is only one book...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 4
+
+The list is not full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 5
+
+The list is not empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+Only book removed...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The list is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> Lgeacies
+        - Enter the BOOK AUTHOR --> Julie Plec
+        - Enter the BOOK PUBLISHER --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - The BOOK TITLE is --> Lgeacies
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> The Originals
+        - Enter the BOOK AUTHOR --> Julie Plec
+        - Enter the BOOK PUBLISHER --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> Spiderman
+        - Enter the BOOK AUTHOR --> Stan Lee
+        - Enter the BOOK PUBLISHER --> Marvel
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> Captain America
+        - Enter the BOOK AUTHOR --> Stan Lee
+        - Enter the BOOK PUBLISHER --> Marvel
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> The Flash
+        - Enter the BOOK AUTHOR --> Sam Reimni
+        - Enter the BOOK PUBLISHER --> DC
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimni
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Captain America
+        - The BOOK AUTHOR is --> Stan Lee
+        - The BOOK PUBLISHER is --> Marvel
+
+        - The BOOK TITLE is --> Spiderman
+        - The BOOK AUTHOR is --> Stan Lee
+        - The BOOK PUBLISHER is --> Marvel
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> Lgeacies
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 2
+
+        - Enter the title of the book you want to SEARCH --> The Originals
+
+The book was found in position #3 of the array...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+List is full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 4
+
+List is full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 5
+
+The list is not empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+        - Enter the title of the book you want to REMOVE --> Legacies
+
+The book was not found...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimni
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Captain America
+        - The BOOK AUTHOR is --> Stan Lee
+        - The BOOK PUBLISHER is --> Marvel
+
+        - The BOOK TITLE is --> Spiderman
+        - The BOOK AUTHOR is --> Stan Lee
+        - The BOOK PUBLISHER is --> Marvel
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> Lgeacies
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+        - Enter the title of the book you want to REMOVE --> Lgeacies
+
+The book was found in position #4 of the array...
+Book removed...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimni
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Captain America
+        - The BOOK AUTHOR is --> Stan Lee
+        - The BOOK PUBLISHER is --> Marvel
+
+        - The BOOK TITLE is --> Spiderman
+        - The BOOK AUTHOR is --> Stan Lee
+        - The BOOK PUBLISHER is --> Marvel
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> Legacies
+        - Enter the BOOK AUTHOR --> Julie Plec
+        - Enter the BOOK PUBLISHER --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - The BOOK TITLE is --> Legacies
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimni
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Captain America
+        - The BOOK AUTHOR is --> Stan Lee
+        - The BOOK PUBLISHER is --> Marvel
+
+        - The BOOK TITLE is --> Spiderman
+        - The BOOK AUTHOR is --> Stan Lee
+        - The BOOK PUBLISHER is --> Marvel
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+List is full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+        - Enter the title of the book you want to REMOVE --> Spiderman
+
+The book was found in position #3 of the array...
+Book removed...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - The BOOK TITLE is --> Legacies
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimni
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Captain America
+        - The BOOK AUTHOR is --> Stan Lee
+        - The BOOK PUBLISHER is --> Marvel
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+        - Enter the title of the book you want to REMOVE --> The Flash
+
+The book was found in position #1 of the array...
+Book removed...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - The BOOK TITLE is --> Legacies
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> Captain America
+        - The BOOK AUTHOR is --> Stan Lee
+        - The BOOK PUBLISHER is --> Marvel
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+        - Enter the title of the book you want to REMOVE --> The Originals
+
+The book was found in position #2 of the array...
+Book removed...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - The BOOK TITLE is --> Legacies
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> Captain America
+        - The BOOK AUTHOR is --> Stan Lee
+        - The BOOK PUBLISHER is --> Marvel
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+        - Enter the title of the book you want to REMOVE --> Legacies
+
+The book was found in position #0 of the array...
+Book removed...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - The BOOK TITLE is --> Captain America
+        - The BOOK AUTHOR is --> Stan Lee
+        - The BOOK PUBLISHER is --> Marvel
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+Only book removed...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The list is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 7
+
+Ending program...
+
+
+C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\x64\Debug\Module 1, Assignment 1.2.exe (process 7912) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .
