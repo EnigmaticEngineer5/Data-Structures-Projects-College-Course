@@ -1,14 +1,21 @@
 #include "BookInfo.h"
 
-BookInfo::BookInfo() : title{}, author{}, publisher{} { /*cout << "\nBookInfo default constructor invoked...";*/ };
+BookInfo::BookInfo() : title{}, author{}, publisher{} 
+{ 
+	/*cout << "\nBookInfo default constructor invoked...";*/
+};
 
 BookInfo::BookInfo(const string sourceTitle, const string sourceAuthor, const string sourcePublisher) :
-	title{ sourceTitle }, author{ sourceAuthor }, publisher{ sourcePublisher } {
+	title{ sourceTitle }, author{ sourceAuthor }, publisher{ sourcePublisher } 
+{
 	//cout << "\nBookInfo parametrized constructor invoked...";
 };
 
-BookInfo::BookInfo(const BookInfo& sourceBook) : title{ sourceBook.getTitle() },
-author{ sourceBook.getAuthor() }, publisher{ sourceBook.getPublisher() } {
+BookInfo::BookInfo(const BookInfo& sourceBook) : 
+	title{ sourceBook.getTitle() },
+	author{ sourceBook.getAuthor() }, 
+	publisher{ sourceBook.getPublisher() } 
+{
 	//cout << "\nBookInfo copy constructor invoked...";
 };
 

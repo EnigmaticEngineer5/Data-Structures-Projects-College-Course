@@ -60,7 +60,10 @@ public:
 };
 
 template<class T, int MAX_CAPACITY>
-inline BookList<T, MAX_CAPACITY>::BookList() : books{}, top{} { /*cout << "\nBookList default constructor invoked...";*/ };
+inline BookList<T, MAX_CAPACITY>::BookList() : books{}, top{} 
+{ 
+	/*cout << "\nBookList default constructor invoked...";*/
+};
 
 template<class T, int MAX_CAPACITY>
 inline BookList<T, MAX_CAPACITY>::BookList(const T sourceBooks[], const size_t sourceTop) : top{ sourceTop }
