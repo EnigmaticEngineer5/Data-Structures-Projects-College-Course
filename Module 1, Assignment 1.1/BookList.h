@@ -3,29 +3,32 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
+static constexpr const int MAX_CAPACITY{ 5 };
+
 class BookList
 {
 private:
-	static constexpr const int MAX_CAPACITY{ 5 };
 	size_t top;
-	std::string books[MAX_CAPACITY];
+	string books[MAX_CAPACITY];
 
 public:
 	BookList();
-	BookList(const std::string[], const size_t);
+	BookList(const string[], const size_t);
 	BookList(const BookList&);
 
 	const bool isEmpty() const;
 	const bool isFull() const;
 	const size_t getCurrentSize() const;
-	const bool addBook(const std::string);
-	const size_t containsBook(const std::string) const;
-	const bool removeBook(const std::string);
+	const bool addBook(const string);
+	const size_t containsBook(const string) const;
+	const bool removeBook(const string);
 	void displayBooks() const;
 
-	std::string& operator [] (const int&);
-	friend std::istream& operator >> (std::istream&, BookList&);
-	friend std::ostream& operator << (std::ostream&, const BookList&);
+	string& operator [] (const int&);
+	friend istream& operator >> (istream&, BookList&);
+	friend ostream& operator << (ostream&, const BookList&);
 
 	~BookList();
 };

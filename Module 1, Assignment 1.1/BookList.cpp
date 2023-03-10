@@ -2,14 +2,14 @@
 
 BookList::BookList() : books{}, top{}
 {
-	std::cout << "\nDefault constructor invoked...";
+	cout << "\nDefault constructor invoked...";
 }
 
-BookList::BookList(const std::string sourceBooks[], const size_t sourceDimension) : top{ sourceDimension }
+BookList::BookList(const string sourceBooks[], const size_t sourceDimension) : top{ sourceDimension }
 {
 	if (getCurrentSize() > MAX_CAPACITY)
 	{
-		throw new std::out_of_range("Max capacity reached...");
+		throw new out_of_range("Max capacity reached...");
 	}
 
 	size_t j{ (getCurrentSize() - 1) };
@@ -22,7 +22,7 @@ BookList::BookList(const std::string sourceBooks[], const size_t sourceDimension
 
 BookList::BookList(const BookList& sourceBookList) : top{ sourceBookList.getCurrentSize() }
 {
-	std::cout << "\nCopy constructor invoked...";
+	cout << "\nCopy constructor invoked...";
 
 	size_t j{ (getCurrentSize() - 1) };
 	for (size_t i{}; i < getCurrentSize(); i++)
@@ -75,7 +75,7 @@ const size_t BookList::getCurrentSize() const
 	return top;
 }
 
-const bool BookList::addBook(const std::string sourceTitle)
+const bool BookList::addBook(const string sourceTitle)
 {
 	if (!isFull())
 	{
@@ -86,7 +86,7 @@ const bool BookList::addBook(const std::string sourceTitle)
 			size_t i{ getCurrentSize() - 1 };
 			while (i-- > 0)
 			{
-				std::swap(books[i], books[i + 1]);
+				swap(books[i], books[i + 1]);
 			}
 		}
 		this->books[0] = sourceTitle;
@@ -94,12 +94,12 @@ const bool BookList::addBook(const std::string sourceTitle)
 		return true;
 	}
 
-	std::cout << "\nUnable to insert book, the list is full...";
+	cout << "\nUnable to insert book, the list is full...";
 
 	return false;
 }
 
-const size_t BookList::containsBook(const std::string sourceTitle) const
+const size_t BookList::containsBook(const string sourceTitle) const
 {
 	if (!isEmpty() && getCurrentSize() > 1)
 	{
@@ -107,30 +107,30 @@ const size_t BookList::containsBook(const std::string sourceTitle) const
 		{
 			if (books[i].compare(sourceTitle) == 0)
 			{
-				std::cout << "\nThe book was found in position #" << i << " of the array...";
+				cout << "\nThe book was found in position #" << i << " of the array...";
 				return i;
 			}
 		}
 	}
 	else if (!isEmpty() && getCurrentSize() == 1)
 	{
-		std::cout << "\nThere is only one book...";
+		cout << "\nThere is only one book...";
 		return 0;
 	}
 
-	std::cout << "\nThe book was not found...";
+	cout << "\nThe book was not found...";
 	return -1;
 }
 
-const bool BookList::removeBook(const std::string sourceName)
+const bool BookList::removeBook(const string sourceName)
 {
 	if (isEmpty())
 	{
-		std::cout << "\nNo books to remove, the list is empty...";
+		cout << "\nNo books to remove, the list is empty...";
 	}
 	else if (getCurrentSize() == 1)
 	{
-		std::cout << "\nOnly book removed...";
+		cout << "\nOnly book removed...";
 		for (auto& it : this->books)
 		{
 			it = "";
@@ -154,7 +154,7 @@ const bool BookList::removeBook(const std::string sourceName)
 				}
 				else
 				{
-					std::cout << "\nBook removed...";
+					cout << "\nBook removed...";
 				}
 			}
 
@@ -180,45 +180,45 @@ void BookList::displayBooks() const
 {
 	if (!isEmpty())
 	{
-		std::cout << "\nThe books saved on the list are:";
+		cout << "\nThe books saved on the list are:";
 		for (const auto& it : books)
 		{
-			std::cout << "\n\t- " << it;
+			cout << "\n\t- " << it;
 		}
 	}
 	else
 	{
-		std::cout << "\nThe list is empty...";
+		cout << "\nThe list is empty...";
 	}
 }
 
-std::string& BookList::operator [] (const int& index)
+string& BookList::operator [] (const int& index)
 {
 	if (index < 0 || index >= MAX_CAPACITY)
 	{
-		throw new std::out_of_range("Bounds exceeded...");
+		throw new out_of_range("Bounds exceeded...");
 	}
 
 	return books[index];
 }
 
-std::istream& operator >> (std::istream& input, BookList& sourceList)
+istream& operator >> (istream& input, BookList& sourceList)
 {
 	if (sourceList.isFull())
 	{
-		std::cout << "\nList is full...";
+		cout << "\nList is full...";
 		return input;
 	}
 
-	std::cout << "\n\t- Enter the TITLE of the book you want to add --> ";
-	std::string title{};
-	getline(std::cin >> std::ws, title);
+	cout << "\n\t- Enter the TITLE of the book you want to add --> ";
+	string title{};
+	getline(cin >> ws, title);
 	sourceList.addBook(title);
 
 	return input;
 }
 
-std::ostream& operator << (std::ostream& output, const BookList& sourceList)
+ostream& operator << (ostream& output, const BookList& sourceList)
 {
 	sourceList.displayBooks();
 	return output;
@@ -226,6 +226,6 @@ std::ostream& operator << (std::ostream& output, const BookList& sourceList)
 
 BookList::~BookList()
 {
-	std::cout << "\nObject released...";
+	cout << "\nObject released...";
 	books->erase();
 };

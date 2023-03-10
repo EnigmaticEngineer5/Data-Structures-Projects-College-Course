@@ -6,7 +6,7 @@ void addBookData(BookList<BookInfo>& allBooks);
 
 const int main()
 {
-	std::cout << "Welcome to the book list program!";
+	cout << "Welcome to the book list program!";
 
 	enum MyEnum
 	{
@@ -18,19 +18,12 @@ const int main()
 		printList = 6
 	};
 
-	//BookInfo bookRecord[] =
-	//		{
-	//			{"The Originals", "Julie Plec", "TVD"},
-	//			{"Legacies", "Julie Plec", "TVD"},
-	//			{"Doctor Strange", "Sam Reimi", "Marvel"}
-	//		};
-
 	int selection{};
-	BookList<BookInfo> allBooks{/*bookRecord, 3*/};
+	BookList<BookInfo> allBooks{};
 
 	do
 	{
-		std::cout << "\n\nChoose your desired operation:"
+		cout << "\n\nChoose your desired operation:"
 			<< "\n\t1) Add Book"
 			<< "\n\t2) Search Book"
 			<< "\n\t3) Remove Book"
@@ -39,20 +32,22 @@ const int main()
 			<< "\n\t6) Print books"
 			<< "\n\t7) Exit program"
 			<< "\nEnter answer here --> ";
-		std::cin >> selection;
+		cin >> selection;
 
-		while (std::cin.fail())
+		while (cin.fail() || selection < 1 || selection > 7)
 		{
-			std::cin.clear();
-			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-			std::cout << "\nOnly integer input accepted! Re-enter --> ";
-			std::cin >> selection;
-		}
-
-		while (selection < 0 || selection > 7)
-		{
-			std::cout << "\nInvalid range, please re-enter a valid option --> ";
-			std::cin >> selection;
+			if (cin.fail())
+			{
+				cin.clear();
+				cin.ignore(numeric_limits<streamsize>::max(), '\n');
+				cout << "\nOnly integer input accepted! Re-enter --> ";
+				cin >> selection;
+			}
+			else
+			{
+				cout << "\nInvalid range, please re-enter a valid option --> ";
+				cin >> selection;
+			}
 		}
 
 		switch (selection)
@@ -70,23 +65,23 @@ const int main()
 			break;
 
 		case checkIfFull:
-			(allBooks.isFull()) ? std::cout << "\nList is full..." : std::cout << "\nThe list is not full...";
+			(allBooks.isFull()) ? cout << "\nList is full..." : cout << "\nThe list is not full...";
 			break;
 
 		case checkIfEmpty:
-			(allBooks.isEmpty()) ? std::cout << "\nThe list is empty..." : std::cout << "\nThe list is not empty...";
+			(allBooks.isEmpty()) ? cout << "\nThe list is empty..." : cout << "\nThe list is not empty...";
 			break;
 
 		case printList:
-			std::cout << allBooks;
+			cout << allBooks;
 			break;
 
 		default:
-			std::cout << "\nEnding program...";
+			cout << "\nEnding program...";
 		}
 	} while (selection != 7);
 
-	std::cout << "\n\n";
+	cout << "\n\n";
 	return 0;
 }
 
@@ -101,9 +96,9 @@ void removeTitle(BookList<BookInfo>& allBooks)
 {
 	if (!allBooks.isEmpty() && allBooks.getCurrentSize() > 1)
 	{
-		std::cout << "\n\t- Enter the title of the book you want to REMOVE --> ";
-		std::string title{};
-		getline(std::cin >> std::ws, title);
+		cout << "\n\t- Enter the title of the book you want to REMOVE --> ";
+		string title{};
+		getline(cin >> ws, title);
 		allBooks.removeBook(title);
 	}
 	else if (!allBooks.isEmpty() && allBooks.getCurrentSize() == 1)
@@ -112,7 +107,7 @@ void removeTitle(BookList<BookInfo>& allBooks)
 	}
 	else
 	{
-		std::cout << "\nThe list is empty...";
+		cout << "\nThe list is empty...";
 	}
 }
 
@@ -120,9 +115,9 @@ void searchTitle(BookList<BookInfo>& allBooks)
 {
 	if (!allBooks.isEmpty() && allBooks.getCurrentSize() > 1)
 	{
-		std::cout << "\n\t- Enter the title of the book you want to SEARCH --> ";
-		std::string title{};
-		getline(std::cin >> std::ws, title);
+		cout << "\n\t- Enter the title of the book you want to SEARCH --> ";
+		string title{};
+		getline(cin >> ws, title);
 		allBooks.containsBook(title);
 	}
 	else if (!allBooks.isEmpty() && allBooks.getCurrentSize() == 1)
@@ -131,6 +126,6 @@ void searchTitle(BookList<BookInfo>& allBooks)
 	}
 	else
 	{
-		std::cout << "\nThe list is empty...";
+		cout << "\nThe list is empty...";
 	}
 }

@@ -18,8 +18,8 @@ public:
 	const bool isFull() const;
 	const size_t getCurrentSize() const;
 	const bool addBook(const T);
-	const size_t containsBook(const std::string) const;
-	const bool removeBook(const std::string);
+	const size_t containsBook(const string) const;
+	const bool removeBook(const string);
 	void displayBooks() const;
 
 	T& operator [] (const int&);
@@ -28,7 +28,7 @@ public:
 	{
 		if (sourceList.isFull())
 		{
-			std::cout << "\nList is full...";
+			cout << "\nList is full...";
 			return input;
 		}
 
@@ -41,7 +41,13 @@ public:
 
 	friend ostream& operator << (ostream& output, const BookList<T>& sourceList)
 	{
-		std::cout << "\nThe books saved on the list are:";
+		if (sourceList.isEmpty())
+		{
+			cout << "\nThe list is empty...";
+			return output;
+		}
+
+		cout << "\nThe books saved on the list are:";
 		for (size_t i{}; i < sourceList.getCurrentSize(); i++)
 		{
 			cout << sourceList.books[i] << '\n';
@@ -76,7 +82,7 @@ inline BookList<T, MAX_CAPACITY>::BookList(const T sourceBooks[], const size_t s
 template<class T, int MAX_CAPACITY>
 inline BookList<T, MAX_CAPACITY>::BookList(const BookList& sourceBookList) : top{ sourceBookList.getCurrentSize() }
 {
-	//std::cout << "\nBookList Copy constructor invoked...";
+	//cout << "\nBookList Copy constructor invoked...";
 
 	size_t j{ (getCurrentSize() - 1) };
 	for (size_t i{}; i < getCurrentSize(); i++)
@@ -89,16 +95,16 @@ inline BookList<T, MAX_CAPACITY>::BookList(const BookList& sourceBookList) : top
 template<class T, int MAX_CAPACITY>
 inline const bool BookList<T, MAX_CAPACITY>::isEmpty() const
 {
-	int emptyStringsFound{};
+	int emptyBooks{};
 	for (const auto& book : books)
 	{
-		if (book.getTitle().empty() && book.getAuthor().empty() && book.getPublisher().empty())
+		if (book.getTitle().empty() && book.getAuthor().empty() && book.getPublisher().empty() && getCurrentSize() == 0 && !isFull())
 		{
-			emptyStringsFound++;
+			emptyBooks++;
 		}
 	}
 
-	if (emptyStringsFound == MAX_CAPACITY)
+	if (emptyBooks == MAX_CAPACITY)
 	{
 		return true;
 	}
@@ -112,7 +118,7 @@ inline const bool BookList<T, MAX_CAPACITY>::isFull() const
 	int fullStringsFound{};
 	for (const auto& book : books)
 	{
-		if (!book.getTitle().empty() && !book.getAuthor().empty() && !book.getPublisher().empty())
+		if (!book.getTitle().empty() && !book.getAuthor().empty() && !book.getPublisher().empty() && getCurrentSize() == 5 && !isEmpty())
 		{
 			fullStringsFound++;
 		}
@@ -144,7 +150,7 @@ inline const bool BookList<T, MAX_CAPACITY>::addBook(const T sourceBook)
 			size_t i{ getCurrentSize() - 1 };
 			while (i-- > 0)
 			{
-				std::swap(books[i], books[i + 1]);
+				swap(books[i], books[i + 1]);
 			}
 		}
 		this->books[0] = sourceBook;
@@ -152,13 +158,13 @@ inline const bool BookList<T, MAX_CAPACITY>::addBook(const T sourceBook)
 		return true;
 	}
 
-	std::cout << "\nUnable to insert book, the list is full...";
+	cout << "\nUnable to insert book, the list is full...";
 
 	return false;
 }
 
 template<class T, int MAX_CAPACITY>
-inline const size_t BookList<T, MAX_CAPACITY>::containsBook(const std::string sourceTitle) const
+inline const size_t BookList<T, MAX_CAPACITY>::containsBook(const string sourceTitle) const
 {
 	if (!isEmpty() && getCurrentSize() > 1)
 	{
@@ -166,34 +172,36 @@ inline const size_t BookList<T, MAX_CAPACITY>::containsBook(const std::string so
 		{
 			if (books[i].getTitle().compare(sourceTitle) == 0)
 			{
-				std::cout << "\nThe book was found in position #" << i << " of the array...";
+				cout << "\nThe book was found in position #" << i << " of the array...";
 				return i;
 			}
 		}
 	}
 	else if (!isEmpty() && getCurrentSize() == 1)
 	{
-		std::cout << "\nThere is only one book...";
+		cout << "\nThere is only one book...";
 		return 0;
 	}
 
-	std::cout << "\nThe book was not found...";
+	cout << "\nThe book was not found...";
 	return -1;
 }
 
 template<class T, int MAX_CAPACITY>
-inline const bool BookList<T, MAX_CAPACITY>::removeBook(const std::string sourceName)
+inline const bool BookList<T, MAX_CAPACITY>::removeBook(const string sourceName)
 {
 	if (isEmpty())
 	{
-		std::cout << "\nNo books to remove, the list is empty...";
+		cout << "\nNo books to remove, the list is empty...";
 	}
 	else if (getCurrentSize() == 1)
 	{
-		std::cout << "\nOnly book removed...";
+		top--;
+		cout << "\nOnly book removed...";
 		for (auto& it : this->books)
 		{
-			it.setBookInfo("", "", "");
+			//it.setBookInfo("", "", "");
+			it.~BookInfo();
 		}
 		return true;
 	}
@@ -214,14 +222,15 @@ inline const bool BookList<T, MAX_CAPACITY>::removeBook(const std::string source
 				}
 				else
 				{
-					std::cout << "\nBook removed...";
+					cout << "\nBook removed...";
 				}
 			}
 
 			top--;
 			for (auto& it : this->books)
 			{
-				it.setBookInfo("", "", "");
+				//it.setBookInfo("", "", "");
+				it.~BookInfo();
 			}
 
 			for (size_t i{}; i < getCurrentSize(); i++)
@@ -239,7 +248,7 @@ inline const bool BookList<T, MAX_CAPACITY>::removeBook(const std::string source
 template<class T, int MAX_CAPACITY>
 inline void BookList<T, MAX_CAPACITY>::displayBooks() const
 {
-	std::cout << "\nThe books saved on the list are:";
+	cout << "\nThe books saved on the list are:";
 	for (size_t i{}; i < getCurrentSize(); i++)
 	{
 		cout << books[i] << '\n';
@@ -251,7 +260,7 @@ inline T& BookList<T, MAX_CAPACITY>::operator[](const int& index)
 {
 	if (index < 0 || index >= MAX_CAPACITY)
 	{
-		throw new std::out_of_range("Bounds exceeded...");
+		throw new out_of_range("Bounds exceeded...");
 	}
 
 	return books[index];
@@ -260,5 +269,5 @@ inline T& BookList<T, MAX_CAPACITY>::operator[](const int& index)
 template<class T, int MAX_CAPACITY>
 inline BookList<T, MAX_CAPACITY>::~BookList()
 {
-	//std::cout << "\n\tObject released...";
+	//cout << "\n\tObject released...";
 }

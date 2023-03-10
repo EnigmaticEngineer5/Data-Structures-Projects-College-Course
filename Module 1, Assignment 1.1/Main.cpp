@@ -119,34 +119,3 @@ void searchTitle(BookList& allBooks)
 		std::cout << "\nThe list is empty...";
 	}
 }
-
-//#include "BookList.h"
-//
-//const int main()
-//{
-//	const std::string names[] =
-//	{
-//		"Legacies",
-//		"The Originals",
-//		"Can't Hurt Me",
-//		"25/7",
-//		"Tom Sawyer"
-//	};
-//
-//	BookList allBooks(names, 5);
-//
-//	BookList allBooks2{ allBooks };
-//	std::cout << allBooks2 << "\n\n\n";
-//
-//	return 0;
-//}
-
-//#include "BookList.h"
-//
-//const int main()
-//{
-//	BookList list;
-//	std::cout << "\n\n\n";
-//
-//	return 0;
-//}
