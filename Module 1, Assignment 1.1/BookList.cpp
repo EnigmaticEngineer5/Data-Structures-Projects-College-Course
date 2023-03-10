@@ -3,7 +3,7 @@
 BookList::BookList() : books{}, top{}
 {
 	std::cout << "\nDefault constructor invoked...";
-};
+}
 
 BookList::BookList(const std::string sourceBooks[], const size_t sourceDimension) : top{ sourceDimension }
 {
