@@ -3,7 +3,17 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
+using std::cout;
+using std::cin;
+using std::endl;
+using std::string;
+using std::getline;
+using std::istream;
+using std::ostream;
+using std::ws;
+using std::numeric_limits;
+using std::streamsize;
+using std::swap;
 
 class BookInfo
 {
@@ -19,7 +29,6 @@ public:
 	BookInfo& setTitle(const string);
 	BookInfo& setAuthor(const string);
 	BookInfo& setPublisher(const string);
-
 	void setBookInfo(const string, const string, const string);
 
 	const string getTitle() const;
