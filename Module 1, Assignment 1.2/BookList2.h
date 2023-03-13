@@ -71,7 +71,7 @@ inline BookList<T, MAX_CAPACITY>::BookList(const T sourceBooks[], const size_t s
 	//cout << "\nBookList parametrized constructor invoked...";
 	if (getCurrentSize() > MAX_CAPACITY)
 	{
-		throw std::exception("Max capacity reached...");
+		throw exception("Max capacity reached...");
 	}
 
 	size_t j{ (getCurrentSize() - 1) };
@@ -83,7 +83,7 @@ inline BookList<T, MAX_CAPACITY>::BookList(const T sourceBooks[], const size_t s
 }
 
 template<class T, int MAX_CAPACITY>
-inline BookList<T, MAX_CAPACITY>::BookList(const BookList& sourceBookList) : top{ sourceBookList.getCurrentSize() }
+inline BookList<T, MAX_CAPACITY>::BookList(const BookList& sourceBookList) : top{ sourceBookList.top }
 {
 	//cout << "\nBookList Copy constructor invoked...";
 
@@ -104,7 +104,7 @@ inline const bool BookList<T, MAX_CAPACITY>::isEmpty() const
 template<class T, int MAX_CAPACITY>
 inline const bool BookList<T, MAX_CAPACITY>::isFull() const
 {
-	return (getCurrentSize() == 5);
+	return (getCurrentSize() == MAX_CAPACITY);
 }
 
 template<class T, int MAX_CAPACITY>
@@ -233,7 +233,7 @@ inline T& BookList<T, MAX_CAPACITY>::operator[](const int& index)
 {
 	if (index < 0 || index >= MAX_CAPACITY)
 	{
-		throw std::exception("Bounds exceeded...");
+		throw exception("Bounds exceeded...");
 	}
 
 	return books[index];

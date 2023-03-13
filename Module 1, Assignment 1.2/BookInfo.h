@@ -14,6 +14,7 @@ using std::ws;
 using std::numeric_limits;
 using std::streamsize;
 using std::swap;
+using std::exception;
 
 class BookInfo
 {
