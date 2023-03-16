@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{852a4ae1-e533-4caf-afc0-e8f947ba3a06}</ProjectGuid>
+    <RootNamespace>CourseSourceCode</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Chapter01\BagInterface.h" />
+    <ClInclude Include="Chapter03\ArrayBag\ArrayBag.h" />
+    <ClInclude Include="Chapter03\ArrayBag\BagInterface.h" />
+    <ClInclude Include="Chapter04\LinkedBag\LinkedBag.h" />
+    <ClInclude Include="Chapter04\LinkedBag\Node.h" />
+    <ClInclude Include="Chapter05\Board.h" />
+    <ClInclude Include="Chapter05\Queen.h" />
+    <ClInclude Include="Chapter06\StackInterface.h" />
+    <ClInclude Include="Chapter07\ArrayStackNoExceptions\ArrayStack.h" />
+    <ClInclude Include="Chapter07\ArrayStackNoExceptions\StackInterface.h" />
+    <ClInclude Include="Chapter07\LinkedStackNoExceptions\LinkedStack.h" />
+    <ClInclude Include="Chapter07\LinkedStackNoExceptions\Node.h" />
+    <ClInclude Include="Chapter07\LinkedStackNoExceptions\StackInterface.h" />
+    <ClInclude Include="Chapter07\PreconditionViolatedException\PrecondViolatedExcep.h" />
+    <ClInclude Include="Chapter08\ListInterface.h" />
+    <ClInclude Include="Chapter09\ArrayList\ArrayList.h" />
+    <ClInclude Include="Chapter09\LinkedListRecursive\LinkedList.h" />
+    <ClInclude Include="Chapter09\LinkedList\LinkedList.h" />
+    <ClInclude Include="Chapter09\ListInterface.h" />
+    <ClInclude Include="Chapter09\PrecondViolatedExcep.h" />
+    <ClInclude Include="Chapter12\LinkedSortedList\LinkedSortedList.h" />
+    <ClInclude Include="Chapter12\SortedListAsA\SortedListAsA.h" />
+    <ClInclude Include="Chapter12\SortedListHasA\SortedListHasA.h" />
+    <ClInclude Include="Chapter12\SortedListInterface.h" />
+    <ClInclude Include="Chapter12\SortedListIsA\SortedListIsA.h" />
+    <ClInclude Include="Chapter13\QueueInterface.h" />
+    <ClInclude Include="Chapter14\PriorityQueue\SL_PriorityQueue.h" />
+    <ClInclude Include="Chapter14\Queue\ArrayQueue\ArrayQueue.h" />
+    <ClInclude Include="Chapter14\Queue\LinkedQueue\LinkedQueue.h" />
+    <ClInclude Include="Chapter14\Queue\ListQueue\ListQueue.h" />
+    <ClInclude Include="Chapter14\Queue\QueueInterface.h" />
+    <ClInclude Include="Chapter15\BinaryTreeInterface.h" />
+    <ClInclude Include="Chapter16\BinaryNode.h" />
+    <ClInclude Include="Chapter16\BinaryNodeTree.h" />
+    <ClInclude Include="Chapter16\BinarySearchTree.h" />
+    <ClInclude Include="Chapter16\TreeNode.h" />
+    <ClInclude Include="Chapter17\ArrayMaxHeap.h" />
+    <ClInclude Include="Chapter17\HeapInterface.h" />
+    <ClInclude Include="Chapter17\Heap_PriorityQueue.h" />
+    <ClInclude Include="Chapter18\ArrayDictionary.h" />
+    <ClInclude Include="Chapter18\DictionaryInterface.h" />
+    <ClInclude Include="Chapter18\Entry.h" />
+    <ClInclude Include="Chapter18\HashedEntry.h" />
+    <ClInclude Include="Chapter18\TreeDictionary.h" />
+    <ClInclude Include="Chapter19\QuadNode.h" />
+    <ClInclude Include="Chapter19\RedBlackNode.h" />
+    <ClInclude Include="Chapter19\TriNode.h" />
+    <ClInclude Include="Chapter20\GraphInterface.h" />
+    <ClInclude Include="Interlude01\ListingC1-05\ToyBox.h" />
+    <ClInclude Include="Interlude01\ListingC1-07\MagicBox.h" />
+    <ClInclude Include="Interlude01\ListingC1-09\BoxInterface.h" />
+    <ClInclude Include="Interlude01\ListingC1_01\PlainBox.h" />
+    <ClInclude Include="Interlude01\ListingC1_03\PlainBox.h" />
+    <ClInclude Include="Interlude02\GoodMemory.h" />
+    <ClInclude Include="Interlude02\SectionC2_2\MagicBox.h" />
+    <ClInclude Include="Interlude02\SectionC2_2\PlainBox.h" />
+    <ClInclude Include="Interlude02\SectionC2_4_VirtualMethods\MagicBox.h" />
+    <ClInclude Include="Interlude02\SectionC2_4_VirtualMethods\PlainBox.h" />
+    <ClInclude Include="Interlude04\SectionC4.1.3_IsA\MagicBox.h" />
+    <ClInclude Include="Interlude04\SectionC4.1.3_IsA\PlainBox.h" />
+    <ClInclude Include="Interlude04\SectionC4.1\MagicBox.h" />
+    <ClInclude Include="Interlude04\SectionC4.1\PlainBox.h" />
+    <ClInclude Include="Interlude04\SectionC4.3\BoxInterface.h" />
+    <ClInclude Include="Interlude05\ListNode.h" />
+    <ClInclude Include="Interlude06\LinkedIterator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Chapter01\Listing01_02.cpp" />
+    <ClCompile Include="Chapter02\binarySearch.cpp" />
+    <ClCompile Include="Chapter02\Exercise01.cpp" />
+    <ClCompile Include="Chapter02\Exercise11.cpp" />
+    <ClCompile Include="Chapter02\Exercise12.cpp" />
+    <ClCompile Include="Chapter02\Exercise13.cpp" />
+    <ClCompile Include="Chapter02\Exercise14.cpp" />
+    <ClCompile Include="Chapter02\Exercise15.cpp" />
+    <ClCompile Include="Chapter02\Exercise23.cpp" />
+    <ClCompile Include="Chapter02\fact.cpp" />
+    <ClCompile Include="Chapter02\getNumberOfGroups.cpp" />
+    <ClCompile Include="Chapter02\iterativeRabbit.cpp" />
+    <ClCompile Include="Chapter02\Question01.cpp" />
+    <ClCompile Include="Chapter02\rabbit.cpp" />
+    <ClCompile Include="Chapter02\solveTowers.cpp" />
+    <ClCompile Include="Chapter02\writeArrayBackward.cpp" />
+    <ClCompile Include="Chapter02\writeBackward.cpp" />
+    <ClCompile Include="Chapter02\writeBackwardIterative.cpp" />
+    <ClCompile Include="Chapter03\ArrayBagRecursive\ArrayBag.cpp" />
+    <ClCompile Include="Chapter03\ArrayBag\ArrayBag.cpp" />
+    <ClCompile Include="Chapter03\Listing03_02 core methods test\main.cpp" />
+    <ClCompile Include="Chapter03\Section3.2.6.Testing\main.cpp" />
+    <ClCompile Include="Chapter04\LinkedBagRecursive\LinkedBagExcerpts.cpp" />
+    <ClCompile Include="Chapter04\LinkedBag\LinkedBag.cpp" />
+    <ClCompile Include="Chapter04\LinkedBag\Node.cpp" />
+    <ClCompile Include="Chapter04\Listing4_4\main.cpp" />
+    <ClCompile Include="Chapter05\isPath.cpp" />
+    <ClCompile Include="Chapter05\placeQueens.cpp" />
+    <ClCompile Include="Chapter06\isPath.cpp" />
+    <ClCompile Include="Chapter07\ArrayStackNoExceptions\ArrayStack.cpp" />
+    <ClCompile Include="Chapter07\LinkedStackNoExceptions\LinkedStack.cpp" />
+    <ClCompile Include="Chapter07\LinkedStackNoExceptions\Node.cpp" />
+    <ClCompile Include="Chapter07\PreconditionViolatedException\PrecondViolatedExcep.cpp" />
+    <ClCompile Include="Chapter09\ArrayList\aClient.cpp" />
+    <ClCompile Include="Chapter09\ArrayList\ArrayList.cpp" />
+    <ClCompile Include="Chapter09\LinkedListRecursive\LinkedList.cpp" />
+    <ClCompile Include="Chapter09\LinkedList\LinkedList.cpp" />
+    <ClCompile Include="Chapter09\PrecondViolatedExcep.cpp" />
+    <ClCompile Include="Chapter11\bubbleSort.cpp" />
+    <ClCompile Include="Chapter11\insertionSort.cpp" />
+    <ClCompile Include="Chapter11\mergesort.cpp" />
+    <ClCompile Include="Chapter11\quicksort.cpp" />
+    <ClCompile Include="Chapter11\selectionSort.cpp" />
+    <ClCompile Include="Chapter11\shellSort.cpp" />
+    <ClCompile Include="Chapter12\LinkedSortedList\LinkedSortedList.cpp" />
+    <ClCompile Include="Chapter12\SortedListHasA\SortedListHasA.cpp" />
+    <ClCompile Include="Chapter12\SortedListIsA\SortedListIsA.cpp" />
+    <ClCompile Include="Chapter14\PriorityQueue\SL_PriorityQueue.cpp" />
+    <ClCompile Include="Chapter14\Queue\ArrayQueue\ArrayQueue.cpp" />
+    <ClCompile Include="Chapter14\Queue\LinkedQueue\LinkedQueue.cpp" />
+    <ClCompile Include="Chapter14\Queue\ListQueue\ListQueue.cpp" />
+    <ClCompile Include="Chapter16\BinaryNodeTree.cpp" />
+    <ClCompile Include="Chapter17\ArrayMaxHeap.cpp" />
+    <ClCompile Include="Chapter17\Heap_PriorityQueue.cpp" />
+    <ClCompile Include="Chapter18\ArrayDictionary.cpp" />
+    <ClCompile Include="Chapter18\Entry.cpp" />
+    <ClCompile Include="Chapter18\HashedDictionary.cpp" />
+    <ClCompile Include="Chapter18\TreeDictionary.cpp" />
+    <ClCompile Include="Interlude01\ListingC1-04\PlainBox.cpp" />
+    <ClCompile Include="Interlude01\ListingC1-06\ToyBox.cpp" />
+    <ClCompile Include="Interlude01\ListingC1-08\MagicBox.cpp" />
+    <ClCompile Include="Interlude01\ListingC1_02\PlainBox.cpp" />
+    <ClCompile Include="Interlude02\addResizableAdd.cpp" />
+    <ClCompile Include="Interlude02\goodFunction.cpp" />
+    <ClCompile Include="Interlude02\GoodMemory.cpp" />
+    <ClCompile Include="Interlude02\myLeakyFunction.cpp" />
+    <ClCompile Include="Interlude02\SectionC2.5.1_ResizableBag\add.cpp" />
+    <ClCompile Include="Interlude02\SectionC2_2\MagicBox.cpp" />
+    <ClCompile Include="Interlude02\SectionC2_2\main.cpp" />
+    <ClCompile Include="Interlude02\SectionC2_2\PlainBox.cpp" />
+    <ClCompile Include="Interlude02\SectionC2_4_VirtualMethods\MagicBox.cpp" />
+    <ClCompile Include="Interlude02\SectionC2_4_VirtualMethods\main.cpp" />
+    <ClCompile Include="Interlude02\SectionC2_4_VirtualMethods\PlainBox.cpp" />
+    <ClCompile Include="Interlude03\ListingC3_1\findBox.cpp" />
+    <ClCompile Include="Interlude03\ListingC3_2\findBox.cpp" />
+    <ClCompile Include="Interlude03\ListingC3_3\findBox.cpp" />
+    <ClCompile Include="Interlude03\ListingC3_4\main.cpp" />
+    <ClCompile Include="Interlude04\SectionC4.1.1_Protected\MagicBox.cpp" />
+    <ClCompile Include="Interlude04\SectionC4.1.3_IsA\MagicBox.cpp" />
+    <ClCompile Include="Interlude04\SectionC4.1.3_IsA\main.cpp" />
+    <ClCompile Include="Interlude04\SectionC4.1.3_IsA\PlainBox.cpp" />
+    <ClCompile Include="Interlude04\SectionC4.1\MagicBox_setItem.cpp" />
+    <ClCompile Include="Interlude05\OverloadedAssignment.cpp" />
+    <ClCompile Include="Interlude05\OverloadedEquality.cpp" />
+    <ClCompile Include="Interlude05\OverloadedOutputStream.cpp" />
+    <ClCompile Include="Interlude06\LinkedIterator.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
