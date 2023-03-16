@@ -24,3 +24,12 @@ int main() {
 
 	return 0;
 }
+
+//Box Trace...
+//acker(1, 2)
+//= acker(0, acker(1, 1))
+//= acker(0, acker(0, acker(1, 0)))
+//= acker(0, acker(0, acker(0, 1)))
+//= acker(0, acker(0, 2))
+//= acker(0, 3)
+//= 4
