@@ -15,15 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BookInfo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="BookList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BookInfo.cpp">
+    <ClCompile Include="BookList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
@@ -31,12 +28,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd">
+    <Text Include="TestCases1.txt">
       <Filter>Resource Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="TestCases.txt">
+    </Text>
+    <Text Include="TestCases2.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

@@ -60,7 +60,7 @@ const bool BookList::addBook(const string sourceTitle)
 
 	return false;
 }
-
+  
 const int BookList::containsBook(const string sourceTitle) const
 {
 	if (this->getCurrentSize() > 1)

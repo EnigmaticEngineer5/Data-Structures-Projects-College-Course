@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Data Abstraction, Assignment 1.1", "Module 1, Assignment 1.1\Module 1, Assignment 1.1.vcxproj", "{57330330-C9F1-46AC-881E-CA7ECD9C37AC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Module 1, Examples", "Module 1, Examples\Module 1, Examples.vcxproj", "{1A52CC32-A02D-4E3F-8614-07D989CCD890}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Data Abstraction, Examples", "Module 1, Examples\Module 1, Examples.vcxproj", "{1A52CC32-A02D-4E3F-8614-07D989CCD890}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Data Abstraction, Assignment 1.2", "Module 1, Assignment 1.2\Module 1, Assignment 1.2.vcxproj", "{DA31D643-FAB3-4793-9931-99A4A18D5CC0}"
 EndProject
@@ -18,6 +18,16 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Recursion, Assignment 2.3", "Recursion, Assignment 2.3\Recursion, Assignment 2.3.vcxproj", "{F9695712-73E0-4670-87DF-3EAC167E7F3B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Data Abstraction, Assignment 1.1 V2", "Module 1, Assignment 1.1-V2\Module 1, Assignment 1.1-V2.vcxproj", "{BD6CD027-4A32-462A-AB81-D664D8BD2E81}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Recursion, Assignment 2.4", "Recursion, Assignment 2.4\Recursion, Assignment 2.4.vcxproj", "{F8A648BA-F714-4678-AF49-08942B430211}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Data Abstraction, Assignment 1.1 V3", "Module 1, Assignment 1.2 V3\Module 1, Assignment 1.2 V3.vcxproj", "{F459BFFC-48A1-4C5C-95B1-E2836A19D676}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Data Abstraction, Assignment 1.2 V2", "Module 1, Assignment 1.2 V2\Module 1, Assignment 1.2 V2.vcxproj", "{DB5F0465-4946-4DCD-AB74-95AF26E77556}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array Based ADT Bags, Activity 3.1", "Module 3, Activity 3.1\Module 3, Activity 3.1.vcxproj", "{AB088789-83CA-402B-9B4F-336B75296ACA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array Based ADT Bags, Assignment 3.1", "Module 3, Assignment 3.1\Module 3, Assignment 3.1.vcxproj", "{04964E2E-14DF-452E-B853-8BE5FFF12493}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +101,46 @@ Global
 		{BD6CD027-4A32-462A-AB81-D664D8BD2E81}.Release|x64.Build.0 = Release|x64
 		{BD6CD027-4A32-462A-AB81-D664D8BD2E81}.Release|x86.ActiveCfg = Release|Win32
 		{BD6CD027-4A32-462A-AB81-D664D8BD2E81}.Release|x86.Build.0 = Release|Win32
+		{F8A648BA-F714-4678-AF49-08942B430211}.Debug|x64.ActiveCfg = Debug|x64
+		{F8A648BA-F714-4678-AF49-08942B430211}.Debug|x64.Build.0 = Debug|x64
+		{F8A648BA-F714-4678-AF49-08942B430211}.Debug|x86.ActiveCfg = Debug|Win32
+		{F8A648BA-F714-4678-AF49-08942B430211}.Debug|x86.Build.0 = Debug|Win32
+		{F8A648BA-F714-4678-AF49-08942B430211}.Release|x64.ActiveCfg = Release|x64
+		{F8A648BA-F714-4678-AF49-08942B430211}.Release|x64.Build.0 = Release|x64
+		{F8A648BA-F714-4678-AF49-08942B430211}.Release|x86.ActiveCfg = Release|Win32
+		{F8A648BA-F714-4678-AF49-08942B430211}.Release|x86.Build.0 = Release|Win32
+		{F459BFFC-48A1-4C5C-95B1-E2836A19D676}.Debug|x64.ActiveCfg = Debug|x64
+		{F459BFFC-48A1-4C5C-95B1-E2836A19D676}.Debug|x64.Build.0 = Debug|x64
+		{F459BFFC-48A1-4C5C-95B1-E2836A19D676}.Debug|x86.ActiveCfg = Debug|Win32
+		{F459BFFC-48A1-4C5C-95B1-E2836A19D676}.Debug|x86.Build.0 = Debug|Win32
+		{F459BFFC-48A1-4C5C-95B1-E2836A19D676}.Release|x64.ActiveCfg = Release|x64
+		{F459BFFC-48A1-4C5C-95B1-E2836A19D676}.Release|x64.Build.0 = Release|x64
+		{F459BFFC-48A1-4C5C-95B1-E2836A19D676}.Release|x86.ActiveCfg = Release|Win32
+		{F459BFFC-48A1-4C5C-95B1-E2836A19D676}.Release|x86.Build.0 = Release|Win32
+		{DB5F0465-4946-4DCD-AB74-95AF26E77556}.Debug|x64.ActiveCfg = Debug|x64
+		{DB5F0465-4946-4DCD-AB74-95AF26E77556}.Debug|x64.Build.0 = Debug|x64
+		{DB5F0465-4946-4DCD-AB74-95AF26E77556}.Debug|x86.ActiveCfg = Debug|Win32
+		{DB5F0465-4946-4DCD-AB74-95AF26E77556}.Debug|x86.Build.0 = Debug|Win32
+		{DB5F0465-4946-4DCD-AB74-95AF26E77556}.Release|x64.ActiveCfg = Release|x64
+		{DB5F0465-4946-4DCD-AB74-95AF26E77556}.Release|x64.Build.0 = Release|x64
+		{DB5F0465-4946-4DCD-AB74-95AF26E77556}.Release|x86.ActiveCfg = Release|Win32
+		{DB5F0465-4946-4DCD-AB74-95AF26E77556}.Release|x86.Build.0 = Release|Win32
+		{AB088789-83CA-402B-9B4F-336B75296ACA}.Debug|x64.ActiveCfg = Debug|x64
+		{AB088789-83CA-402B-9B4F-336B75296ACA}.Debug|x64.Build.0 = Debug|x64
+		{AB088789-83CA-402B-9B4F-336B75296ACA}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB088789-83CA-402B-9B4F-336B75296ACA}.Debug|x86.Build.0 = Debug|Win32
+		{AB088789-83CA-402B-9B4F-336B75296ACA}.Release|x64.ActiveCfg = Release|x64
+		{AB088789-83CA-402B-9B4F-336B75296ACA}.Release|x64.Build.0 = Release|x64
+		{AB088789-83CA-402B-9B4F-336B75296ACA}.Release|x86.ActiveCfg = Release|Win32
+		{AB088789-83CA-402B-9B4F-336B75296ACA}.Release|x86.Build.0 = Release|Win32
+		{04964E2E-14DF-452E-B853-8BE5FFF12493}.Debug|x64.ActiveCfg = Debug|x64
+		{04964E2E-14DF-452E-B853-8BE5FFF12493}.Debug|x64.Build.0 = Debug|x64
+		{04964E2E-14DF-452E-B853-8BE5FFF12493}.Debug|x86.ActiveCfg = Debug|Win32
+		{04964E2E-14DF-452E-B853-8BE5FFF12493}.Debug|x86.Build.0 = Debug|Win32
+		{04964E2E-14DF-452E-B853-8BE5FFF12493}.Release|x64.ActiveCfg = Release|x64
+		{04964E2E-14DF-452E-B853-8BE5FFF12493}.Release|x64.Build.0 = Release|x64
+		{04964E2E-14DF-452E-B853-8BE5FFF12493}.Release|x86.ActiveCfg = Release|Win32
+		{04964E2E-14DF-452E-B853-8BE5FFF12493}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

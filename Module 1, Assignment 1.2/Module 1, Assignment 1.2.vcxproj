@@ -129,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BookInfo.h" />
-    <ClInclude Include="BookList2.h" />
+    <ClInclude Include="BookList.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BookInfo.cpp" />

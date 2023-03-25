@@ -2,29 +2,29 @@
 
 #include "BookInfo.h"
 
-template <class T, const int MAX_CAPACITY = 5>
+template <class ItemType, const int MAX_CAPACITY = 5>
 class BookList
 {
 private:
 	size_t top;
-	T books[MAX_CAPACITY];
+	ItemType books[MAX_CAPACITY];
 
 public:
 	BookList();
-	BookList(const T[], const size_t);
+	BookList(const ItemType[], const size_t);
 	BookList(const BookList&);
 
 	const bool isEmpty() const;
 	const bool isFull() const;
 	const size_t getCurrentSize() const;
-	const bool addBook(const T);
+	const bool addBook(const ItemType);
 	const size_t containsBook(const string) const;
 	const bool removeBook(const string);
 	void displayBooks() const;
 
-	T& operator [] (const int&);
+	ItemType& operator [] (const int&);
 
-	friend istream& operator >> (istream& input, BookList<T>& sourceList)
+	friend istream& operator >> (istream& input, BookList<ItemType>& sourceList)
 	{
 		if (sourceList.isFull())
 		{
@@ -39,7 +39,7 @@ public:
 		return input;
 	}
 
-	friend ostream& operator << (ostream& output, const BookList<T>& sourceList)
+	friend ostream& operator << (ostream& output, const BookList<ItemType>& sourceList)
 	{
 		if (sourceList.isEmpty())
 		{
@@ -59,14 +59,14 @@ public:
 	~BookList();
 };
 
-template<class T, int MAX_CAPACITY>
-inline BookList<T, MAX_CAPACITY>::BookList() : books{}, top{}
+template<class ItemType, const int MAX_CAPACITY>
+inline BookList<ItemType, MAX_CAPACITY>::BookList() : books{}, top{}
 {
 	//cout << "\nBookList default constructor invoked...";
 };
 
-template<class T, int MAX_CAPACITY>
-inline BookList<T, MAX_CAPACITY>::BookList(const T sourceBooks[], const size_t sourceTop) : top{ sourceTop }
+template<class ItemType, int MAX_CAPACITY>
+inline BookList<ItemType, MAX_CAPACITY>::BookList(const ItemType sourceBooks[], const size_t sourceTop) : top{ sourceTop }
 {
 	//cout << "\nBookList parametrized constructor invoked...";
 	if (getCurrentSize() > MAX_CAPACITY)
@@ -82,8 +82,8 @@ inline BookList<T, MAX_CAPACITY>::BookList(const T sourceBooks[], const size_t s
 	}
 }
 
-template<class T, int MAX_CAPACITY>
-inline BookList<T, MAX_CAPACITY>::BookList(const BookList& sourceBookList) : top{ sourceBookList.top }
+template<class ItemType, int MAX_CAPACITY>
+inline BookList<ItemType, MAX_CAPACITY>::BookList(const BookList& sourceBookList) : top{ sourceBookList.top }
 {
 	//cout << "\nBookList Copy constructor invoked...";
 
@@ -95,26 +95,26 @@ inline BookList<T, MAX_CAPACITY>::BookList(const BookList& sourceBookList) : top
 	}
 }
 
-template<class T, int MAX_CAPACITY>
-inline const bool BookList<T, MAX_CAPACITY>::isEmpty() const
+template<class ItemType, int MAX_CAPACITY>
+inline const bool BookList<ItemType, MAX_CAPACITY>::isEmpty() const
 {
 	return (getCurrentSize() == 0);
 }
 
-template<class T, int MAX_CAPACITY>
-inline const bool BookList<T, MAX_CAPACITY>::isFull() const
+template<class ItemType, int MAX_CAPACITY>
+inline const bool BookList<ItemType, MAX_CAPACITY>::isFull() const
 {
 	return (getCurrentSize() == MAX_CAPACITY);
 }
 
-template<class T, int MAX_CAPACITY>
-inline const size_t BookList<T, MAX_CAPACITY>::getCurrentSize() const
+template<class ItemType, int MAX_CAPACITY>
+inline const size_t BookList<ItemType, MAX_CAPACITY>::getCurrentSize() const
 {
 	return top;
 }
 
-template<class T, int MAX_CAPACITY>
-inline const bool BookList<T, MAX_CAPACITY>::addBook(const T sourceBook)
+template<class ItemType, int MAX_CAPACITY>
+inline const bool BookList<ItemType, MAX_CAPACITY>::addBook(const ItemType sourceBook)
 {
 	if (!isFull())
 	{
@@ -138,8 +138,8 @@ inline const bool BookList<T, MAX_CAPACITY>::addBook(const T sourceBook)
 	return false;
 }
 
-template<class T, int MAX_CAPACITY>
-inline const size_t BookList<T, MAX_CAPACITY>::containsBook(const string sourceTitle) const
+template<class ItemType, int MAX_CAPACITY>
+inline const size_t BookList<ItemType, MAX_CAPACITY>::containsBook(const string sourceTitle) const
 {
 	if (!isEmpty() && getCurrentSize() > 1)
 	{
@@ -162,8 +162,8 @@ inline const size_t BookList<T, MAX_CAPACITY>::containsBook(const string sourceT
 	return -1;
 }
 
-template<class T, int MAX_CAPACITY>
-inline const bool BookList<T, MAX_CAPACITY>::removeBook(const string sourceName)
+template<class ItemType, int MAX_CAPACITY>
+inline const bool BookList<ItemType, MAX_CAPACITY>::removeBook(const string sourceName)
 {
 	if (isEmpty())
 	{
@@ -218,8 +218,8 @@ inline const bool BookList<T, MAX_CAPACITY>::removeBook(const string sourceName)
 	return false;
 }
 
-template<class T, int MAX_CAPACITY>
-inline void BookList<T, MAX_CAPACITY>::displayBooks() const
+template<class ItemType, int MAX_CAPACITY>
+inline void BookList<ItemType, MAX_CAPACITY>::displayBooks() const
 {
 	cout << "\nThe books saved on the list are:";
 	for (size_t i{}; i < getCurrentSize(); i++)
@@ -228,8 +228,8 @@ inline void BookList<T, MAX_CAPACITY>::displayBooks() const
 	}
 }
 
-template<class T, int MAX_CAPACITY>
-inline T& BookList<T, MAX_CAPACITY>::operator[](const int& index)
+template<class ItemType, int MAX_CAPACITY>
+inline ItemType& BookList<ItemType, MAX_CAPACITY>::operator[](const int& index)
 {
 	if (index < 0 || index >= MAX_CAPACITY)
 	{
@@ -239,8 +239,8 @@ inline T& BookList<T, MAX_CAPACITY>::operator[](const int& index)
 	return books[index];
 }
 
-template<class T, int MAX_CAPACITY>
-inline BookList<T, MAX_CAPACITY>::~BookList()
+template<class ItemType, int MAX_CAPACITY>
+inline BookList<ItemType, MAX_CAPACITY>::~BookList()
 {
 	cout << "\n\tObject released...";
 }

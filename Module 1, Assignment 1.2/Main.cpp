@@ -1,7 +1,7 @@
-#include "BookList2.h"
+#include "BookList.h"
 
 void searchTitle(BookList<BookInfo>& allBooks);
-void removeTitle(BookList<BookInfo>& allBooks);
+void removeBookInfo(BookList<BookInfo>& allBooks);
 void addBookData(BookList<BookInfo>& allBooks);
 
 const int main()
@@ -61,7 +61,7 @@ const int main()
 			break;
 
 		case removeBook:
-			removeTitle(allBooks);
+			removeBookInfo(allBooks);
 			break;
 
 		case checkIfFull:
@@ -92,7 +92,7 @@ void addBookData(BookList<BookInfo>& allBooks)
 	allBooks.addBook(bookToAdd);
 }
 
-void removeTitle(BookList<BookInfo>& allBooks)
+void removeBookInfo(BookList<BookInfo>& allBooks)
 {
 	if (!allBooks.isEmpty() && allBooks.getCurrentSize() > 1)
 	{

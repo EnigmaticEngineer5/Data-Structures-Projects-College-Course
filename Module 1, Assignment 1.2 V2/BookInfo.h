@@ -25,7 +25,8 @@ public:
 	const string getAuthor() const;
 	const string getPublisher() const;
 
-	const bool operator == (const BookInfo&);
+	BookInfo& operator = (const BookInfo&);
+	const bool operator == (const BookInfo&) const;
 	friend istream& operator >> (istream&, BookInfo&);
 	friend ostream& operator << (ostream&, const BookInfo&);
 };

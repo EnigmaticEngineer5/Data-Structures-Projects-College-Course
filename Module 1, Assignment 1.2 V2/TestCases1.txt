@@ -1,0 +1,782 @@
+Welcome to the book list program!
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+
+The books saved on the list are:
+        - The BOOK TITLE is --> Spiderman
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> Marvel
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> Legacies
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> Input Validation
+
+Only integer input accepted! Re-enter --> -1
+
+Invalid range, please re-enter a valid option --> 0
+
+Invalid range, please re-enter a valid option --> 8
+
+Invalid range, please re-enter a valid option --> 1
+
+List is full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 4
+
+List is full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 5
+
+The list is not empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 2
+
+        - Enter the title of the book you want to SEARCH --> Legacies
+
+Book Info Object released...
+Legacies was found in position #4 of the list!
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+
+The books saved on the list are:
+        - The BOOK TITLE is --> Spiderman
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> Marvel
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> Legacies
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+        - Enter the TITLE of the book you want to REMOVE --> Spiderman
+
+Book Info Object released...
+Book Info Object released...
+Book was found at the top of the list, no need to create copies...
+
+The books saved on the list are:
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> Legacies
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+
+The books saved on the list are:
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> Legacies
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+        - Enter the TITLE of the book you want to REMOVE --> Legacies
+
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+
+The books saved on the list are:
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+
+The books saved on the list are:
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+        - Enter the TITLE of the book you want to REMOVE --> hello
+
+Book Info Object released...
+The book was not found...
+
+The books saved on the list are:
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> Batman Begins
+        - Enter the BOOK AUTHOR --> Christopher Nolan
+        - Enter the BOOK PUBLISHER --> DC
+
+Book Info Object released...
+
+The books saved on the list are:
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is --> Batman Begins
+        - The BOOK AUTHOR is --> Christopher Nolan
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+Book Info Object released...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> Batman vs Superman
+        - Enter the BOOK AUTHOR --> Zack Snyder
+        - Enter the BOOK PUBLISHER --> DC
+
+Book Info Object released...
+
+The books saved on the list are:
+        - The BOOK TITLE is --> Batman vs Superman
+        - The BOOK AUTHOR is --> Zack Snyder
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Batman Begins
+        - The BOOK AUTHOR is --> Christopher Nolan
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+Book Info Object released...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+List is full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+
+The books saved on the list are:
+        - The BOOK TITLE is --> Batman vs Superman
+        - The BOOK AUTHOR is --> Zack Snyder
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Batman Begins
+        - The BOOK AUTHOR is --> Christopher Nolan
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 4
+
+List is full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 5
+
+The list is not empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 2
+
+        - Enter the title of the book you want to SEARCH --> The Flash
+
+Book Info Object released...
+The Flash was found in position #2 of the list!
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+
+The books saved on the list are:
+        - The BOOK TITLE is --> Batman vs Superman
+        - The BOOK AUTHOR is --> Zack Snyder
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Batman Begins
+        - The BOOK AUTHOR is --> Christopher Nolan
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+        - The BOOK TITLE is --> The Originals
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+        - Enter the TITLE of the book you want to REMOVE --> The Originals
+
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+
+The books saved on the list are:
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is --> Batman vs Superman
+        - The BOOK AUTHOR is --> Zack Snyder
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Batman Begins
+        - The BOOK AUTHOR is --> Christopher Nolan
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+
+The books saved on the list are:
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is --> Batman vs Superman
+        - The BOOK AUTHOR is --> Zack Snyder
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Batman Begins
+        - The BOOK AUTHOR is --> Christopher Nolan
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+        - Enter the TITLE of the book you want to REMOVE --> Batman vs Superman
+
+Book Info Object released...
+Book Info Object released...
+Book was found at the top of the list, no need to create copies...
+
+The books saved on the list are:
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is --> Batman Begins
+        - The BOOK AUTHOR is --> Christopher Nolan
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+
+The books saved on the list are:
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is --> Batman Begins
+        - The BOOK AUTHOR is --> Christopher Nolan
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> Vampire Diaries
+        - The BOOK AUTHOR is --> Julie Plec
+        - The BOOK PUBLISHER is --> TVD
+
+
+        - Enter the TITLE of the book you want to REMOVE --> Vampire Diaries
+
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+
+The books saved on the list are:
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is --> Batman Begins
+        - The BOOK AUTHOR is --> Christopher Nolan
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+
+The books saved on the list are:
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is --> Batman Begins
+        - The BOOK AUTHOR is --> Christopher Nolan
+        - The BOOK PUBLISHER is --> DC
+
+        - The BOOK TITLE is --> The Flash
+        - The BOOK AUTHOR is --> Sam Reimi
+        - The BOOK PUBLISHER is --> DC
+
+
+        - Enter the TITLE of the book you want to REMOVE --> The Flash
+
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+
+The books saved on the list are:
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is --> Batman Begins
+        - The BOOK AUTHOR is --> Christopher Nolan
+        - The BOOK PUBLISHER is --> DC
+
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+
+The books saved on the list are:
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is -->
+        - The BOOK AUTHOR is -->
+        - The BOOK PUBLISHER is -->
+
+        - The BOOK TITLE is --> Batman Begins
+        - The BOOK AUTHOR is --> Christopher Nolan
+        - The BOOK PUBLISHER is --> DC
+
+Book Info Object released...
+Book Info Object released...
+Only book deleted...
+Unable to print list, is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+Unable to print list, is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 5
+
+The list is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 7
+
+Ending program...
+
+
+BookList Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+Book Info Object released...
+C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\x64\Release\Data Abstraction, Assignment 1.2 V2.exe (process 15008) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

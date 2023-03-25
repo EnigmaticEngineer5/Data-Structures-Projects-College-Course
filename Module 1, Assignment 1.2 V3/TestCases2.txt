@@ -1,0 +1,459 @@
+Welcome to the book list program!
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - Harry Potter
+        - Vampire Diaries
+        - The Originals
+        - Narnia
+        - Legacies
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        - Harry Potter
+        - Vampire Diaries
+        - The Originals
+        - Narnia
+        - Legacies
+
+        - Enter the title of the book you want to REMOVE --> Narnia
+
+Object released...
+The books saved on the list are:
+        -
+        - Harry Potter
+        - Vampire Diaries
+        - The Originals
+        - Legacies
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> The Flash
+
+The books saved on the list are:
+        - The Flash
+        - Harry Potter
+        - Vampire Diaries
+        - The Originals
+        - Legacies
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        - The Flash
+        - Harry Potter
+        - Vampire Diaries
+        - The Originals
+        - Legacies
+
+        - Enter the title of the book you want to REMOVE --> Legacies
+
+Object released...
+The books saved on the list are:
+        -
+        - The Flash
+        - Harry Potter
+        - Vampire Diaries
+        - The Originals
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        -
+        - The Flash
+        - Harry Potter
+        - Vampire Diaries
+        - The Originals
+
+        - Enter the title of the book you want to REMOVE --> The Originals
+
+Object released...
+The books saved on the list are:
+        -
+        -
+        - The Flash
+        - Harry Potter
+        - Vampire Diaries
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> The Hulk
+
+The books saved on the list are:
+        -
+        - The Hulk
+        - The Flash
+        - Harry Potter
+        - Vampire Diaries
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> Spiderman
+
+The books saved on the list are:
+        - Spiderman
+        - The Hulk
+        - The Flash
+        - Harry Potter
+        - Vampire Diaries
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+Unable to add book, the list is full!
+The books saved on the list are:
+        - Spiderman
+        - The Hulk
+        - The Flash
+        - Harry Potter
+        - Vampire Diaries
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 2
+
+        - Enter the title of the book you want to SEARCH --> Harry Potter
+
+Harry Potter was found in position #3 of the list!
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 4
+
+List is full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 5
+
+The list is not empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - Spiderman
+        - The Hulk
+        - The Flash
+        - Harry Potter
+        - Vampire Diaries
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        - Spiderman
+        - The Hulk
+        - The Flash
+        - Harry Potter
+        - Vampire Diaries
+
+        - Enter the title of the book you want to REMOVE --> Vampire Diaries
+
+Object released...
+The books saved on the list are:
+        -
+        - Spiderman
+        - The Hulk
+        - The Flash
+        - Harry Potter
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        -
+        - Spiderman
+        - The Hulk
+        - The Flash
+        - Harry Potter
+
+        - Enter the title of the book you want to REMOVE --> Spiderman
+
+Book was found at the end of the list, no need to create copies...
+The books saved on the list are:
+        -
+        -
+        - The Hulk
+        - The Flash
+        - Harry Potter
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        -
+        -
+        - The Hulk
+        - The Flash
+        - Harry Potter
+
+        - Enter the title of the book you want to REMOVE --> The Flash
+
+Object released...
+The books saved on the list are:
+        -
+        -
+        -
+        - The Hulk
+        - Harry Potter
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        -
+        -
+        -
+        - The Hulk
+        - Harry Potter
+
+        - Enter the title of the book you want to REMOVE --> The Hulk
+
+Book was found at the end of the list, no need to create copies...
+The books saved on the list are:
+        -
+        -
+        -
+        -
+        - Harry Potter
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        -
+        -
+        -
+        -
+        - Harry Potter
+Only book deleted...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+Unable to print list, is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 4
+
+The list is not full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 5
+
+The list is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> Doctor Strange
+
+The books saved on the list are:
+        -
+        -
+        -
+        -
+        - Doctor Strange
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        -
+        -
+        -
+        -
+        - Doctor Strange
+Only book deleted...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+Unable to print list, is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here -->
+7
+
+Ending program...
+
+
+Object released...
+C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\x64\Release\Data Abstraction, Assignment 1.1 V3.exe (process 14452) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

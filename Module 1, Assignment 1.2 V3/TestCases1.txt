@@ -1,0 +1,539 @@
+Welcome to the book list program!
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+Unable to print list, is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> Narnia
+
+The books saved on the list are:
+        -
+        -
+        -
+        -
+        - Narnia
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> Legacies
+
+The books saved on the list are:
+        -
+        -
+        -
+        - Legacies
+        - Narnia
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 2
+
+        - Enter the title of the book you want to SEARCH --> The Originals
+
+The book was not found in the list...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> The Flash Vol. 3
+
+The books saved on the list are:
+        -
+        -
+        - The Flash Vol. 3
+        - Legacies
+        - Narnia
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        -
+        -
+        - The Flash Vol. 3
+        - Legacies
+        - Narnia
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> Superman
+
+The books saved on the list are:
+        -
+        - Superman
+        - The Flash Vol. 3
+        - Legacies
+        - Narnia
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> Spiderman No Way Home
+
+The books saved on the list are:
+        - Spiderman No Way Home
+        - Superman
+        - The Flash Vol. 3
+        - Legacies
+        - Narnia
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+Unable to add book, the list is full!
+The books saved on the list are:
+        - Spiderman No Way Home
+        - Superman
+        - The Flash Vol. 3
+        - Legacies
+        - Narnia
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 2
+
+        - Enter the title of the book you want to SEARCH --> Superman
+
+Book was found in position #1 of the list!
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+The books saved on the list are:
+        - Spiderman No Way Home
+        - Superman
+        - The Flash Vol. 3
+        - Legacies
+        - Narnia
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 4
+
+List is full...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 5
+
+The list is not empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+Unable to add book, the list is full!
+The books saved on the list are:
+        - Spiderman No Way Home
+        - Superman
+        - The Flash Vol. 3
+        - Legacies
+        - Narnia
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        - Spiderman No Way Home
+        - Superman
+        - The Flash Vol. 3
+        - Legacies
+        - Narnia
+
+        - Enter the title of the book you want to REMOVE --> Spiderman No Way Home
+
+Book was found at the top of the list, no need to create copies...
+The books saved on the list are:
+        -
+        - Superman
+        - The Flash Vol. 3
+        - Legacies
+        - Narnia
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        -
+        - Superman
+        - The Flash Vol. 3
+        - Legacies
+        - Narnia
+
+        - Enter the title of the book you want to REMOVE --> Narnia
+
+Object released...
+The books saved on the list are:
+        -
+        -
+        - Superman
+        - The Flash Vol. 3
+        - Legacies
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        -
+        -
+        - Superman
+        - The Flash Vol. 3
+        - Legacies
+
+        - Enter the title of the book you want to REMOVE --> The Flash Vol. 3
+
+Object released...
+The books saved on the list are:
+        -
+        -
+        -
+        - Superman
+        - Legacies
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        -
+        -
+        -
+        - Superman
+        - Legacies
+
+        - Enter the title of the book you want to REMOVE --> Superman
+
+Book was found at the top of the list, no need to create copies...
+The books saved on the list are:
+        -
+        -
+        -
+        -
+        - Legacies
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> The Hulk
+
+The books saved on the list are:
+        -
+        -
+        -
+        - The Hulk
+        - Legacies
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        -
+        -
+        -
+        - The Hulk
+        - Legacies
+
+        - Enter the title of the book you want to REMOVE --> Legacies
+
+Object released...
+The books saved on the list are:
+        -
+        -
+        -
+        -
+        - The Hulk
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        -
+        -
+        -
+        -
+        - The Hulk
+Only book deleted...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+Unable to print list, is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+Unable to print list, is empty...
+The list is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> Bakery
+
+The books saved on the list are:
+        -
+        -
+        -
+        -
+        - Bakery
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 1
+
+        - Enter the BOOK TITLE --> Code Snippets
+
+The books saved on the list are:
+        -
+        -
+        -
+        - Code Snippets
+        - Bakery
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        -
+        -
+        -
+        - Code Snippets
+        - Bakery
+
+        - Enter the title of the book you want to REMOVE --> Code Snippets
+
+Book was found at the top of the list, no need to create copies...
+The books saved on the list are:
+        -
+        -
+        -
+        -
+        - Bakery
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 3
+
+The books saved on the list are:
+        -
+        -
+        -
+        -
+        - Bakery
+Only book deleted...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 6
+
+Unable to print list, is empty...
+
+Choose your desired operation:
+        1) Add Book
+        2) Search Book
+        3) Remove Book
+        4) Check if the list is full
+        5) Check if the list is empty
+        6) Print books
+        7) Exit program
+Enter answer here --> 7
+
+Ending program...
+
+
+Object released...
+C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\x64\Release\Data Abstraction, Assignment 1.1 V3.exe (process 1160) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.

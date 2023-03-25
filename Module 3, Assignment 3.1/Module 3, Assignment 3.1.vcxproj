@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f9695712-73e0-4670-87df-3eac167e7f3b}</ProjectGuid>
-    <RootNamespace>RecursionAssignment23</RootNamespace>
+    <ProjectGuid>{04964e2e-14df-452e-b853-8be5fff12493}</ProjectGuid>
+    <RootNamespace>Module3Assignment31</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Array Based ADT Bags, Assignment 3.1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,6 +129,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Polynomial.cpp" />
+    <ClCompile Include="Term.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayBag.h" />
+    <ClInclude Include="BagInterface.h" />
+    <ClInclude Include="Polynomial.h" />
+    <ClInclude Include="Term.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

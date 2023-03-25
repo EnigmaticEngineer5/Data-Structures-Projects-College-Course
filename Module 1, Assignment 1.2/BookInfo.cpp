@@ -1,28 +1,15 @@
 #include "BookInfo.h"
 
-BookInfo::BookInfo() : title{}, author{}, publisher{} 
-{ 
-	//cout << "\nBookInfo default constructor invoked...";
-};
+BookInfo::BookInfo() : title{}, author{}, publisher{} {};
+BookInfo::BookInfo(const string sourceTitle, const string sourceAuthor, const string sourcePublisher) 
+	: title{ sourceTitle }, author{ sourceAuthor }, publisher{ sourcePublisher } {};
 
-BookInfo::BookInfo(const string sourceTitle, const string sourceAuthor, const string sourcePublisher) :
-	title{ sourceTitle }, author{ sourceAuthor }, publisher{ sourcePublisher } 
-{
-	//cout << "\nBookInfo parametrized constructor invoked...";
-};
+BookInfo::BookInfo(const BookInfo& sourceBook) :
+	title{ sourceBook.getTitle() },
+	author{ sourceBook.getAuthor() },
+	publisher{ sourceBook.getPublisher()} {};
 
-BookInfo::BookInfo(const BookInfo& sourceBook) : 
-	title{ sourceBook.title },
-	author{ sourceBook.author }, 
-	publisher{ sourceBook.publisher } 
-{
-	//cout << "\nBookInfo copy constructor invoked...";
-};
-
-BookInfo::~BookInfo()
-{
-	cout << "\n\tObject released...";
-}
+BookInfo::~BookInfo() { cout << "\n\tObject released..."; };
 
 BookInfo& BookInfo::setTitle(const string sourceTitle)
 {
@@ -44,7 +31,7 @@ BookInfo& BookInfo::setPublisher(const string sourcePublisher)
 
 void BookInfo::setBookInfo(const string sourceTitle, const string sourceAuthor, const string sourcePublisher)
 {
-	setTitle(sourceTitle).setAuthor(sourceAuthor).setPublisher(sourcePublisher);
+	this->setTitle(sourceTitle).setAuthor(sourceAuthor).setPublisher(sourcePublisher);
 }
 
 const string BookInfo::getTitle() const
@@ -60,6 +47,11 @@ const string BookInfo::getAuthor() const
 const string BookInfo::getPublisher() const
 {
 	return (this->publisher);
+}
+
+const bool BookInfo::operator==(const BookInfo& sourceBookInfo)
+{
+	return (this->title.compare(sourceBookInfo.getTitle()) == 0);
 }
 
 istream& operator >> (istream& input, BookInfo& sourceBook)

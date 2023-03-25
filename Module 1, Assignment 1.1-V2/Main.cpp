@@ -15,7 +15,7 @@ const int main()
 		"Legacies"
 	};
 
-	BookList obj{ books, 5 }, allBooks{ obj };
+	BookList obj{ books, 5 }, allBooks{};
 
 	cout << "\n\nWelcome to the book list program!";
 
