@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array Based ADT Bags, Activ
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array Based ADT Bags, Assignment 3.1", "Module 3, Assignment 3.1\Module 3, Assignment 3.1.vcxproj", "{04964E2E-14DF-452E-B853-8BE5FFF12493}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedLists, Assignment 4.1", "LinkedLists, Assignment 4.1\LinkedLists, Assignment 4.1.vcxproj", "{2E0EB71A-3DF2-46D2-B3A5-2C1A96FFD643}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{04964E2E-14DF-452E-B853-8BE5FFF12493}.Release|x64.Build.0 = Release|x64
 		{04964E2E-14DF-452E-B853-8BE5FFF12493}.Release|x86.ActiveCfg = Release|Win32
 		{04964E2E-14DF-452E-B853-8BE5FFF12493}.Release|x86.Build.0 = Release|Win32
+		{2E0EB71A-3DF2-46D2-B3A5-2C1A96FFD643}.Debug|x64.ActiveCfg = Debug|x64
+		{2E0EB71A-3DF2-46D2-B3A5-2C1A96FFD643}.Debug|x64.Build.0 = Debug|x64
+		{2E0EB71A-3DF2-46D2-B3A5-2C1A96FFD643}.Debug|x86.ActiveCfg = Debug|Win32
+		{2E0EB71A-3DF2-46D2-B3A5-2C1A96FFD643}.Debug|x86.Build.0 = Debug|Win32
+		{2E0EB71A-3DF2-46D2-B3A5-2C1A96FFD643}.Release|x64.ActiveCfg = Release|x64
+		{2E0EB71A-3DF2-46D2-B3A5-2C1A96FFD643}.Release|x64.Build.0 = Release|x64
+		{2E0EB71A-3DF2-46D2-B3A5-2C1A96FFD643}.Release|x86.ActiveCfg = Release|Win32
+		{2E0EB71A-3DF2-46D2-B3A5-2C1A96FFD643}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
