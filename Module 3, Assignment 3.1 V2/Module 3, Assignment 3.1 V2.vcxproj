@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2e0eb71a-3df2-46d2-b3a5-2c1a96ffd643}</ProjectGuid>
-    <RootNamespace>LinkedListsAssignment41</RootNamespace>
+    <ProjectGuid>{6e8e1584-603e-4d68-98db-ff13e2c2bb87}</ProjectGuid>
+    <RootNamespace>Module3Assignment31V2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Array Based ADT Bags, Assignment 3.1 V2</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,26 +129,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ArrayBag.h" />
-    <ClInclude Include="Assignment.h" />
-    <ClInclude Include="AssignmentList.h" />
     <ClInclude Include="BagInterface.h" />
-    <ClInclude Include="Date.h" />
-    <ClInclude Include="LinkedBag.h" />
-    <ClInclude Include="Node.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Polynomial.h" />
+    <ClInclude Include="Term.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Assignment.cpp" />
-    <ClCompile Include="AssignmentList.cpp" />
-    <ClCompile Include="Date.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Polynomial.cpp" />
+    <ClCompile Include="Term.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Output.txt" />
+    <Text Include="Output1.txt" />
     <Text Include="Output2.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <Text Include="Output3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

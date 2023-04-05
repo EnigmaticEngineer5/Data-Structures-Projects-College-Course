@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BagInterface&lt;ItemType&gt;">
+    <Position X="5.25" Y="0.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>BHAACAAAACAAAAAAAAgCAAAAAAAAiAAAAAAAAAACQAA=</HashCode>
+      <FileName>BagInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoublyLinkedBag&lt;ItemType&gt;">
+    <Position X="5.5" Y="4.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>BXAACACBAAABAAAAAAgAAIgAAAAAiAAAACAgAAACQAA=</HashCode>
+      <FileName>DoublyLinkedBag.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node&lt;ItemType&gt;">
+    <Position X="11" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAEQAAAAAAAAAQAACAAAAAAAAAAIABCAAMAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

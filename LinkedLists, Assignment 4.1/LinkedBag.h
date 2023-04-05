@@ -4,7 +4,7 @@
 #include "Node.h" 
 
 template< class ItemType>
-class LinkedBag : public BagInterface<ItemType>
+class LinkedBag final : public BagInterface<ItemType>
 {
 private:
 	Node<ItemType>* headPtr;
@@ -24,8 +24,10 @@ public:
 	void clear() override;
 	const int getFrequencyOf(const ItemType&) const override;
 	const bool contains(const ItemType&) const override;
-	const vector<ItemType> toVector() const override;
 
+	const ItemType getItem(const int) const override;
+
+	const vector<ItemType> toVector() const override;
 	void fillVector(vector<ItemType>&, Node<ItemType>*) const;
 };
 
@@ -40,38 +42,29 @@ LinkedBag<ItemType>::LinkedBag(const LinkedBag<ItemType>& aBag)
 
 	if (origChainPtr == nullptr)
 	{
-		headPtr = nullptr;  // Original bag is empty
+		headPtr = nullptr;  
 	}
 	else
 	{
-		// Copy first node
 		headPtr = new Node<ItemType>();
 		headPtr->setItem(origChainPtr->getItem());
 
-		// Copy remaining nodes
-		Node<ItemType>* newChainPtr{ headPtr };      // Points to last node in new chain
-		origChainPtr = origChainPtr->getNext();     // Advance original-chain pointer
+		Node<ItemType>* newChainPtr{ headPtr };      
+		origChainPtr = origChainPtr->getNext();   
 
 		while (origChainPtr != nullptr)
 		{
-			// Get next item from original chain
 			ItemType nextItem{ origChainPtr->getItem() };
 
-			// Create a new node containing the next item
 			Node<ItemType>* newNodePtr{ new Node<ItemType>(nextItem) };
-
-			// Link new node to end of new chain
 			newChainPtr->setNext(newNodePtr);
 
-			// Advance pointer to new last node
 			newChainPtr = newChainPtr->getNext();
-
-			// Advance pointer to next node in original chain
 			origChainPtr = origChainPtr->getNext();
-		}  // end while
+		} 
 
-		newChainPtr->setNext(nullptr);              // Flag end of chain
-	}  // end if
+		newChainPtr->setNext(nullptr);           
+	} 
 }
 
 template< class ItemType>
@@ -165,6 +158,28 @@ template< class ItemType>
 inline const bool LinkedBag<ItemType>::contains(const ItemType& anEntry) const
 {
 	return (getPointerTo(anEntry, headPtr) != nullptr);
+}
+
+template<class ItemType>
+inline const ItemType LinkedBag<ItemType>::getItem(const int index) const
+{
+	ItemType tmpItem{};
+	Node<ItemType> *origChain{ headPtr };
+	int counter{};
+	while (counter <= index)
+	{
+		tmpItem = origChain->getItem();
+		if (counter == index)
+		{
+			origChain = nullptr;
+			return tmpItem;
+		}
+		else
+		{
+			origChain = origChain->getNext();
+		}
+		counter++;
+	}
 }
 
 template< class ItemType>

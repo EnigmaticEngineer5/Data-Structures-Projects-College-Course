@@ -1,0 +1,793 @@
+Welcome, this is a program that can perform sum operations of Polynomials
+        - How many polynomials would you like to store? (count > 2 & < 20) --> 0
+
+Re-enter an integer in a valid range --> hola
+
+Please, re-enter a valid integer Polynomial Count --> 21
+
+Re-enter an integer in a valid range --> 1
+
+Re-enter an integer in a valid range --> 2
+
+Polynomial #1
+        - How many terms do you want for this polynomial? (terms > 0 & < 20) --> buenas
+
+Please re-enter a valid integer --> 0
+
+Please re-enter a valid number of terms for this polynomial --> 21
+
+Please re-enter a valid number of terms for this polynomial --> 1
+
+Term #1
+        - Enter the COEFFICIENT of the TERM --> carlos
+
+Invalid entry, please re-enter an integer --> 4
+        - Enter the DEGREE of the TERM --> 5
+
+Polynomial #2
+        - How many terms do you want for this polynomial? (terms > 0 & < 20) --> 2
+
+Term #1
+        - Enter the COEFFICIENT of the TERM --> 3
+        - Enter the DEGREE of the TERM --> 3
+
+Term #2
+        - Enter the COEFFICIENT of the TERM --> 5
+        - Enter the DEGREE of the TERM --> 4
+
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> Input validatrion
+
+Please re-enter a valid integer --> 1
+
+Polynomial #1
+        Is --> 4x^5
+
+Polynomial #2
+        Is --> 3x^3 + 5x^4
+
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 2
+
+Polynomial #1
+        Is --> 4x^5
+
+Polynomial #2
+        Is --> 3x^3 + 5x^4
+
+
+Sorted polynomials are:
+Polynomial #1
+        Is --> 4x^5
+
+Polynomial #2
+        Is --> 5x^4 + 3x^3
+
+Unable to combine this term --> 4x^5
+It is going to be appended in the end...
+        - In total, --> 0 terms were combined!
+        - The sum of the polynomials is --> 4x^5 + 5x^4 + 3x^3
+
+There is space available to store the result of the sum,
+Would you like to?
+        1) Yes
+        2) No
+Answer --> buenas
+
+Please re-enter a valid integer response --> 0
+Please re-enter a valid option --> 12
+Please re-enter a valid option --> 1
+
+Item saved...
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 1
+
+Polynomial #1
+        Is --> 4x^5
+
+Polynomial #2
+        Is --> 5x^4 + 3x^3
+
+Polynomial #3
+        Is --> 4x^5 + 5x^4 + 3x^3
+
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 2
+
+The polynomials are sorted already...
+        - Which polynomials do you want to sum? --> 1 3 buen
+
+        - In total, --> 1 terms were combined!
+        - The sum of the polynomials is --> 8x^5 + 5x^4 + 3x^3
+
+There is space available to store the result of the sum,
+Would you like to?
+        1) Yes
+        2) No
+Answer -->
+Please re-enter a valid integer response --> 1 3
+
+Item saved...
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose -->
+Polynomial #1
+        Is --> 4x^5
+
+Polynomial #2
+        Is --> 5x^4 + 3x^3
+
+Polynomial #3
+        Is --> 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+        - Which Polynomial? --> buen
+
+Please re-enter a valid integer target --> 0
+
+Invalid range! Please re-enter --> 12
+
+Invalid range! Please re-enter --> 3
+        - The degree of the polynomial is --> 5
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 4
+
+Polynomial #1
+        Is --> 4x^5
+
+Polynomial #2
+        Is --> 5x^4 + 3x^3
+
+Polynomial #3
+        Is --> 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+        - Which Polynomial? --> 4
+
+        - The polynomial is --> 8x^5 + 5x^4 + 3x^3
+        - Enter the exponent with which you want to find the coefficient --> 3
+
+        - The coefficient is --> 3
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> fgds
+
+Please re-enter a valid integer --> 5
+
+Polynomial #1
+        Is --> 4x^5
+
+Polynomial #2
+        Is --> 5x^4 + 3x^3
+
+Polynomial #3
+        Is --> 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+        - Which Polynomial? --> fdsffg
+
+Please re-enter a valid integer target --> 12
+
+Invalid range! Please re-enter --> 0
+
+Invalid range! Please re-enter --> -1
+
+Invalid range! Please re-enter --> 3
+
+        - Enter the COEFFICIENT of the TERM --> 6
+        - Enter the DEGREE of the TERM --> 7
+Term added...
+Polynomial #1
+        Is --> 4x^5
+
+Polynomial #2
+        Is --> 5x^4 + 3x^3
+
+Polynomial #3
+        Is --> 6x^7 + 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 1
+
+Polynomial #1
+        Is --> 4x^5
+
+Polynomial #2
+        Is --> 5x^4 + 3x^3
+
+Polynomial #3
+        Is --> 6x^7 + 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 6
+
+        - How many terms do you want for this polynomial? (terms > 0 & < 20) --> erter
+
+Please re-enter a valid integer --> 2
+
+Term #1
+        - Enter the COEFFICIENT of the TERM --> 3
+        - Enter the DEGREE of the TERM --> 3
+
+Term #2
+        - Enter the COEFFICIENT of the TERM --> 20
+        - Enter the DEGREE of the TERM --> 12
+
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 1
+
+Polynomial #1
+        Is --> 4x^5
+
+Polynomial #2
+        Is --> 5x^4 + 3x^3
+
+Polynomial #3
+        Is --> 6x^7 + 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+Polynomial #5
+        Is --> 20x^12 + 3x^3
+
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 7
+
+Polynomial #1
+        Is --> 4x^5
+
+Polynomial #2
+        Is --> 5x^4 + 3x^3
+
+Polynomial #3
+        Is --> 6x^7 + 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+Polynomial #5
+        Is --> 20x^12 + 3x^3
+
+        - Which Polynomial? --> 1
+
+Polynomial removed successfully!
+Polynomial #1
+        Is --> 20x^12 + 3x^3
+
+Polynomial #2
+        Is --> 5x^4 + 3x^3
+
+Polynomial #3
+        Is --> 6x^7 + 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 1
+
+Polynomial #1
+        Is --> 20x^12 + 3x^3
+
+Polynomial #2
+        Is --> 5x^4 + 3x^3
+
+Polynomial #3
+        Is --> 6x^7 + 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 8
+
+The polynomials are sorted already...
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 9
+
+Polynomial #1
+        Is --> 20x^12 + 3x^3
+
+Polynomial #2
+        Is --> 5x^4 + 3x^3
+
+Polynomial #3
+        Is --> 6x^7 + 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+        - Which Polynomial? --> no
+
+Please re-enter a valid integer target --> 2
+
+        - This polynomial has --> 2 terms!
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 10
+
+        - There are --> 4 polynomials!
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 11
+
+Polynomial #1
+        Is --> 20x^12 + 3x^3
+
+Polynomial #2
+        Is --> 5x^4 + 3x^3
+
+Polynomial #3
+        Is --> 6x^7 + 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+        - Which Polynomial? --> 2
+
+        - Before removing term --> 5x^4 + 3x^3
+        - What term do you want to delete? (Enter its exponent) --> dadsa
+
+Invalid input, please re-enter --> 5
+
+Unable to remove it/not found!
+        - After removing term --> 5x^4 + 3x^3
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 11
+
+Polynomial #1
+        Is --> 20x^12 + 3x^3
+
+Polynomial #2
+        Is --> 5x^4 + 3x^3
+
+Polynomial #3
+        Is --> 6x^7 + 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+        - Which Polynomial? --> 2
+
+        - Before removing term --> 5x^4 + 3x^3
+        - What term do you want to delete? (Enter its exponent) --> 3
+
+Term removed!
+        - After removing term --> 5x^4
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 1
+
+Polynomial #1
+        Is --> 20x^12 + 3x^3
+
+Polynomial #2
+        Is --> 5x^4
+
+Polynomial #3
+        Is --> 6x^7 + 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 12
+
+Polynomial #1
+        Is --> 20x^12 + 3x^3
+
+Polynomial #2
+        Is --> 5x^4
+
+Polynomial #3
+        Is --> 6x^7 + 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+        - Which Polynomial? --> 2
+
+        - You chose the polynomial --> 5x^4
+        - Enter the exponent to locate the term --> 5
+
+        - Enter by how much you would like to increase the coefficient --> 546
+
+The term you were looking for was not found!
+        - The polynomial now, with the selected coefficient increased is --> 5x^4
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 13
+
+Polynomial #1
+        Is --> 20x^12 + 3x^3
+
+Polynomial #2
+        Is --> 5x^4
+
+Polynomial #3
+        Is --> 6x^7 + 4x^5 + 5x^4 + 3x^3
+
+Polynomial #4
+        Is --> 8x^5 + 5x^4 + 3x^3
+
+        - Which Polynomial? --> 3
+
+        - The coefficient of the highest power is --> 6
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 14
+
+        - The highest degree between all the polynomials is --> 12
+
+Select your preferred operation:
+        1) Print the polynomials
+        2) Sum two polynomials
+        3) Get degree of a polynomial
+        4) Display coefficient given the power of a polynomial
+        5) Change coefficient/add term to a polynomial
+        6) Enter new polynomial
+        7) Remove a polynomial
+        8) Sort polynomials by degrees
+        9) Get quantity of terms
+        10) Get quantity of polynomials
+        11) Remove a term from a polynomial
+        12) Increase coefficient
+        13) Get highest power coefficient
+        14) Get highest degree of all the polynomials
+        15) Exit program
+Choose --> 16
+
+Invalid option, please re-enter a valid one --> 0
+
+Invalid option, please re-enter a valid one --> 20
+
+Invalid option, please re-enter a valid one --> 15
+
+Exiting program...
+
+
+C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\x64\Release\Array Based ADT Bags, Assignment 3.1 V2.exe (process 3484) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

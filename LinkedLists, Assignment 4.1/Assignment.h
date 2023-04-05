@@ -17,6 +17,7 @@ public:
 
 	Assignment& setDescription(const string);
 	Assignment& setDate(const Date);
+
 	const string getDescription() const;
 	const Date getDate() const;
 
@@ -26,6 +27,7 @@ public:
 	const bool operator != (const Assignment&) const;
 	const bool operator > (const Assignment&) const;
 	const bool operator < (const Assignment&) const;
+	const bool operator <= (const Assignment&) const;
 
 	friend istream& operator >> (istream&, Assignment&);
 	friend ostream& operator << (ostream&, const Assignment&);

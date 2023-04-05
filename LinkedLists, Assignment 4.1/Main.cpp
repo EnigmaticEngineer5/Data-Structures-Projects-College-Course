@@ -4,18 +4,11 @@ void displayMenu(int&);
 
 int main()
 {
-	LinkedBag<Assignment> testAssignments{};
+	LinkedBag<Assignment> tmpBag{};
 
-	testAssignments.add(Assignment{ "Module 3, Data Structures", Date{3,23,2023} });
-	testAssignments.add(Assignment{ "Module 4, Data Structures", Date{4,3,2023} });
-	testAssignments.add(Assignment{ "Module 5, Data Structures", Date{4,10,2023} });
-	testAssignments.add(Assignment{ "Module 6, Data Structures", Date{4,17,2023} });
-	testAssignments.add(Assignment{ "Exam 1, Engineering Probability & Statistics", Date{3,31,2023} });
-	testAssignments.add(Assignment{ "Activity 4.1", Date{4,3,2023} });
+	AssignmentList toDoList{};
 
-	AssignmentList toDoList{ testAssignments };
-
-	enum Options
+	const enum Options
 	{
 		addNewAssignment = 1,
 		removeAssignment = 2,
@@ -76,14 +69,14 @@ int main()
 
 void displayMenu(int& selection)
 {
-	cout << "\nSelect an option"
+	cout << "\n\nSelect an option"
 		<< "\n\t1) ADD a new assignment"
 		<< "\n\t2) REMOVE an assignment"
 		<< "\n\t3) Display ORDERED list (based on due dates)"
 		<< "\n\t4) Display DEFAULT list"
 		<< "\n\t5) Find assignments with EARLIEST DUE DATE"
 		<< "\n\t6) Display assignment COUNT"
-		<< "\n\t7) Exit program..."
+		<< "\n\t7) EXIT program..."
 		<< "\n- Answer here --> ";
 	cin >> selection;
 

@@ -25,6 +25,7 @@ public:
 	const bool operator != (const Date&) const;
 	const bool operator > (const Date&) const;
 	const bool operator < (const Date&) const;
+	const bool operator <= (const Date&) const;
 
 	friend istream& operator >> (istream&, Date&);
 	friend ostream& operator << (ostream&, const Date&);

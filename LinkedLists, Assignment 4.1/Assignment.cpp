@@ -12,8 +12,7 @@ Assignment& Assignment::operator=(const Assignment& sourceAssignment)
 {
 	if (this != &sourceAssignment)
 	{
-		setDescription(sourceAssignment.getDescription());
-		setDate(sourceAssignment.getDate());
+		setDescription(sourceAssignment.getDescription()).setDate(sourceAssignment.getDate());
 	}
 
 	return *this;
@@ -64,6 +63,11 @@ const bool Assignment::operator>(const Assignment& rightSide) const
 const bool Assignment::operator<(const Assignment& rightSide) const
 {
 	return (getDate() < rightSide.getDate());
+}
+
+const bool Assignment::operator<=(const Assignment& rightSide) const
+{
+	return (getDate() <= rightSide.getDate());
 }
 
 istream& operator>>(istream& input, Assignment& sourceObj)

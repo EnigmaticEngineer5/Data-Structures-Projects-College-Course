@@ -18,11 +18,26 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BagInterface.h" />
+    <ClInclude Include="DoublyLinkedBag.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Node.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Output.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2e0eb71a-3df2-46d2-b3a5-2c1a96ffd643}</ProjectGuid>
-    <RootNamespace>LinkedListsAssignment41</RootNamespace>
+    <ProjectGuid>{28220e74-680b-4704-bb6d-b1e22f410756}</ProjectGuid>
+    <RootNamespace>LinkedListsAssignment42V2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -126,29 +141,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="ArrayBag.h" />
-    <ClInclude Include="Assignment.h" />
-    <ClInclude Include="AssignmentList.h" />
-    <ClInclude Include="BagInterface.h" />
-    <ClInclude Include="Date.h" />
-    <ClInclude Include="LinkedBag.h" />
-    <ClInclude Include="Node.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Assignment.cpp" />
-    <ClCompile Include="AssignmentList.cpp" />
-    <ClCompile Include="Date.cpp" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Output.txt" />
-    <Text Include="Output2.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

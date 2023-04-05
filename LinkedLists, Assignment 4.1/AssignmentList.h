@@ -3,8 +3,6 @@
 #include "Assignment.h"
 #include "LinkedBag.h"
 
-#include <algorithm>
-
 class AssignmentList
 {
 private:
@@ -12,15 +10,17 @@ private:
 
 public:
 	AssignmentList();
-	AssignmentList(LinkedBag<Assignment>);
+	AssignmentList(const LinkedBag<Assignment>);
 	~AssignmentList();
 
 	AssignmentList& setList(const LinkedBag<Assignment>);
 	AssignmentList& addAssignment();
 	AssignmentList& removeAssignment();
-
-	void showInDueDateOrder();
+	void merge(Assignment*, int, int, int) const;
+	void mergeSort(Assignment*, int, int) const;
+	
 	const LinkedBag<Assignment> getAssignmentList() const;
+	void showInDueDateOrder() const;
 	void displayEarliestAssignments() const;
 	void displayList() const;
 	const int getAssignmentCount() const;

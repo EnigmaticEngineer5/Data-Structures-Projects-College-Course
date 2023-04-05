@@ -1,7 +1,7 @@
 #pragma once
 
 template< class ItemType>
-class Node
+class Node 
 {
 private:
 	ItemType item;
@@ -9,7 +9,7 @@ private:
 
 public:
 	Node();
-	Node(const ItemType&);
+	explicit Node(const ItemType&);
 	Node(const ItemType&, Node<ItemType>*);
 	~Node();
 
@@ -20,7 +20,7 @@ public:
 };
 
 template< class ItemType>
-inline Node<ItemType>::Node() : next(nullptr) {};
+inline Node<ItemType>::Node() : next{}, item{} {};
 
 template< class ItemType>
 inline Node<ItemType>::Node(const ItemType& anItem) : item(anItem), next(nullptr) {};
@@ -37,7 +37,7 @@ inline Node<ItemType>::~Node()
 		delete next;
 		next = nullptr;
 	}
-	
+
 	//cout << "\nNode released...";
 }
 

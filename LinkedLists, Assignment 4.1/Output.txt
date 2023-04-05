@@ -1,0 +1,589 @@
+Hey Student!
+A cordial salutation from the Enigmatic Engineer.
+This is the demo of a program that can record a TO-DO list of assignments
+Hope you enjoy :)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 1
+
+        - Enter the DESCRIPTION of the ASSIGNMENT --> Assignment 4.1, Data Structures
+        - Enter the DATE of the ASSIGNMENT, in FORMAT (MM/DD/YY) --> 4 3 2023
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 1
+
+        - Enter the DESCRIPTION of the ASSIGNMENT --> Assignment 5.1, Data Structures
+        - Enter the DATE of the ASSIGNMENT, in FORMAT (MM/DD/YY) --> 4 3 2023
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 1
+
+        - Enter the DESCRIPTION of the ASSIGNMENT --> Assignment 1, Database Systems
+        - Enter the DATE of the ASSIGNMENT, in FORMAT (MM/DD/YY) --> 4 14 2023
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 1, Database Systems
+        - The ASSIGNMENT DATE is --> (4/14/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 6
+
+        - You have a total of --> 3 assignments!
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 5
+
+Nearest assignments are:
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+- You have --> 2 tasks on (4/3/2023), the same DATE, and closest DEADLINE!
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 3
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 1, Database Systems
+        - The ASSIGNMENT DATE is --> (4/14/2023)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 1
+
+        - Enter the DESCRIPTION of the ASSIGNMENT --> Assignment 5.2, Engineering Probability & Stadistics
+        - Enter the DATE of the ASSIGNMENT, in FORMAT (MM/DD/YY) --> 4 9 2023
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 1, Database Systems
+        - The ASSIGNMENT DATE is --> (4/14/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 1
+
+        - Enter the DESCRIPTION of the ASSIGNMENT --> 5 miles easy
+        - Enter the DATE of the ASSIGNMENT, in FORMAT (MM/DD/YY) --> 4 3 2023
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> 5 miles easy
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 1, Database Systems
+        - The ASSIGNMENT DATE is --> (4/14/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 1
+
+        - Enter the DESCRIPTION of the ASSIGNMENT --> Full body push strength
+        - Enter the DATE of the ASSIGNMENT, in FORMAT (MM/DD/YY) --> 4 6 2023
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> Full body push strength
+        - The ASSIGNMENT DATE is --> (4/6/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> 5 miles easy
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 1, Database Systems
+        - The ASSIGNMENT DATE is --> (4/14/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 3
+
+        - The ASSIGNMENT DESCRIPTION is --> 5 miles easy
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Full body push strength
+        - The ASSIGNMENT DATE is --> (4/6/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 1, Database Systems
+        - The ASSIGNMENT DATE is --> (4/14/2023)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 4
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> Full body push strength
+        - The ASSIGNMENT DATE is --> (4/6/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> 5 miles easy
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 1, Database Systems
+        - The ASSIGNMENT DATE is --> (4/14/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 5
+
+Nearest assignments are:
+
+        - The ASSIGNMENT DESCRIPTION is --> 5 miles easy
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+- You have --> 3 tasks on (4/3/2023), the same DATE, and closest DEADLINE!
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 2
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> Full body push strength
+        - The ASSIGNMENT DATE is --> (4/6/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> 5 miles easy
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 1, Database Systems
+        - The ASSIGNMENT DATE is --> (4/14/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+- Enter the ASSIGNMENT DESCRIPTION to remove --> Assignment 5.1, Data Structures
+
+Assignment removed successfully...
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> 5 miles easy
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 1, Database Systems
+        - The ASSIGNMENT DATE is --> (4/14/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Full body push strength
+        - The ASSIGNMENT DATE is --> (4/6/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 2
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> 5 miles easy
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 1, Database Systems
+        - The ASSIGNMENT DATE is --> (4/14/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Full body push strength
+        - The ASSIGNMENT DATE is --> (4/6/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+- Enter the ASSIGNMENT DESCRIPTION to remove --> pepe
+
+Unable to remove assignment, not found...
+Let's try again!
+- Enter the ASSIGNMENT DESCRIPTION to remove --> Assignment 1, Database Systems
+
+Assignment removed successfully...
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> 5 miles easy
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Full body push strength
+        - The ASSIGNMENT DATE is --> (4/6/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 2
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> 5 miles easy
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Full body push strength
+        - The ASSIGNMENT DATE is --> (4/6/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 4.1, Data Structures
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+- Enter the ASSIGNMENT DESCRIPTION to remove --> Assignment 4.1, Data Structures
+
+Assignment removed successfully...
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> 5 miles easy
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Full body push strength
+        - The ASSIGNMENT DATE is --> (4/6/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 2
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> 5 miles easy
+        - The ASSIGNMENT DATE is --> (4/3/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Full body push strength
+        - The ASSIGNMENT DATE is --> (4/6/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+- Enter the ASSIGNMENT DESCRIPTION to remove --> 5 miles easy
+
+Assignment removed successfully...
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> Full body push strength
+        - The ASSIGNMENT DATE is --> (4/6/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 2
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> Full body push strength
+        - The ASSIGNMENT DATE is --> (4/6/2023)
+
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+- Enter the ASSIGNMENT DESCRIPTION to remove --> Full body push strength
+
+Assignment removed successfully...
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 2
+
+Printing assignments...
+        - The ASSIGNMENT DESCRIPTION is --> Assignment 5.2, Engineering Probability & Stadistics
+        - The ASSIGNMENT DATE is --> (4/9/2023)
+
+- Enter the ASSIGNMENT DESCRIPTION to remove --> Assignment 5.2, Engineering Probability & Stadistics
+
+Assignment removed successfully...
+
+There are no assignments to print!
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 2
+
+There are no assignments to print!
+There are no assignments to remove in the list!
+There are no assignments to print!
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 3
+
+There are no assignments to print!
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 4
+
+There are no assignments to print!
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 5
+
+There are no assignments inside the list...
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 6
+
+        - You have a total of --> 0 assignments!
+
+
+Select an option
+        1) ADD a new assignment
+        2) REMOVE an assignment
+        3) Display ORDERED list (based on due dates)
+        4) Display DEFAULT list
+        5) Find assignments with EARLIEST DUE DATE
+        6) Display assignment COUNT
+        7) EXIT program...
+- Answer here --> 7
+
+Exiting program...
+
+
+C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\x64\Release\LinkedLists, Assignment 4.1.exe (process 31280) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

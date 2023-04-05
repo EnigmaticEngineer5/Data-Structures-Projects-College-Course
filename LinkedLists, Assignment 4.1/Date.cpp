@@ -12,9 +12,7 @@ Date& Date::operator=(const Date& sourceDate)
 {
 	if (this != &sourceDate)
 	{
-		setMonth(sourceDate.getMonth());
-		setDay(sourceDate.getDay());
-		setYear(sourceDate.getYear());
+		setMonth(sourceDate.getMonth()).setDay(sourceDate.getDay()).setYear(sourceDate.getYear());
 	}
 
 	return *this;
@@ -79,6 +77,13 @@ const bool Date::operator<(const Date& rightSide) const
 	int daysOfMonth{ 30 }, daysOfYear{ 365 };
 	return (((getMonth() * daysOfMonth) + getDay() + (getYear() * daysOfYear))
 		< ((rightSide.getMonth() * daysOfMonth) + rightSide.getDay() + (rightSide.getYear() * daysOfYear)));
+}
+
+const bool Date::operator<=(const Date& rightSide) const
+{
+	int daysOfMonth{ 30 }, daysOfYear{ 365 };
+	return (((getMonth() * daysOfMonth) + getDay() + (getYear() * daysOfYear))
+		<= ((rightSide.getMonth() * daysOfMonth) + rightSide.getDay() + (rightSide.getYear() * daysOfYear)));
 }
 
 istream& operator>>(istream& input, Date& sourceObj)
