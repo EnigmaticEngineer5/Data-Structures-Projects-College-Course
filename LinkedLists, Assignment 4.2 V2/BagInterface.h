@@ -20,7 +20,7 @@ protected:
 public:
 	//Requested methods...
 	inline virtual const bool addToBeginning(const ItemType&) = 0;
-	inline virtual const bool removeFirstNode() = 0;
+	inline virtual const bool removeFirstNode(const ItemType&) = 0;
 	inline virtual const Node<ItemType>* rightRotate(const ItemType&, Node<ItemType>* = nullptr) const = 0;
 	inline virtual const Node<ItemType>* leftRotate(const ItemType&, Node<ItemType>* = nullptr) const = 0;
 

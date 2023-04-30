@@ -28,18 +28,18 @@ protected:
    //------------------------------------------------------------
    // Recursively finds where the given node should be placed and
    // inserts it in a leaf at that point.
-   BinaryNode<ItemType>* insertInorder(BinaryNode<ItemType>* subTreePtr,
-                                       BinaryNode<ItemType>* newNode);
+   BinaryNode<T>* insertInorder(BinaryNode<T>* subTreePtr,
+                                       BinaryNode<T>* newNode);
    
    // Removes the given target value from the tree while maintaining a
    // binary search tree.
-   BinaryNode<ItemType>* removeValue(BinaryNode<ItemType>* subTreePtr,
-                                     const ItemType target,
+   BinaryNode<T>* removeValue(BinaryNode<T>* subTreePtr,
+                                     const T target,
                                      bool& success);
    
    // Removes a given node from a tree while maintaining a
    // binary search tree.
-   BinaryNode<ItemType>* removeNode(BinaryNode<ItemType>* nodePtr);
+   BinaryNode<T>* removeNode(BinaryNode<T>* nodePtr);
    
    // Removes the leftmost node in the left subtree of the node
    // pointed to by nodePtr.

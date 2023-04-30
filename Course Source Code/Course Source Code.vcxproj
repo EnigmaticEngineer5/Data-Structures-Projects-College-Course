@@ -138,14 +138,10 @@
     <ClInclude Include="Chapter07\ArrayStackNoExceptions\ArrayStack.h" />
     <ClInclude Include="Chapter07\ArrayStackNoExceptions\StackInterface.h" />
     <ClInclude Include="Chapter07\LinkedStackNoExceptions\LinkedStack.h" />
-    <ClInclude Include="Chapter07\LinkedStackNoExceptions\Node.h" />
     <ClInclude Include="Chapter07\LinkedStackNoExceptions\StackInterface.h" />
-    <ClInclude Include="Chapter07\PreconditionViolatedException\PrecondViolatedExcep.h" />
     <ClInclude Include="Chapter08\ListInterface.h" />
     <ClInclude Include="Chapter09\ArrayList\ArrayList.h" />
     <ClInclude Include="Chapter09\LinkedListRecursive\LinkedList.h" />
-    <ClInclude Include="Chapter09\LinkedList\LinkedList.h" />
-    <ClInclude Include="Chapter09\ListInterface.h" />
     <ClInclude Include="Chapter09\PrecondViolatedExcep.h" />
     <ClInclude Include="Chapter12\LinkedSortedList\LinkedSortedList.h" />
     <ClInclude Include="Chapter12\SortedListAsA\SortedListAsA.h" />

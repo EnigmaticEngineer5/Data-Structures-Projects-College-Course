@@ -48,13 +48,7 @@
     <ClInclude Include="Chapter07\LinkedStackNoExceptions\LinkedStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Chapter07\LinkedStackNoExceptions\Node.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Chapter07\LinkedStackNoExceptions\StackInterface.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Chapter07\PreconditionViolatedException\PrecondViolatedExcep.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Chapter08\ListInterface.h">
@@ -63,13 +57,7 @@
     <ClInclude Include="Chapter09\ArrayList\ArrayList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Chapter09\LinkedList\LinkedList.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Chapter09\LinkedListRecursive\LinkedList.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Chapter09\ListInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Chapter09\PrecondViolatedExcep.h">

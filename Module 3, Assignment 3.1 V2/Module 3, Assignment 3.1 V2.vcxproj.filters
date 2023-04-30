@@ -41,6 +41,9 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="V3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Output1.txt">
@@ -50,6 +53,9 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="Output3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Output1V3.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

@@ -6,12 +6,10 @@
 /** ADT sorted list: Link-based implementation.
  @file LinkedSortedList.h */
 
+#include "../SortedListInterface.h"
+
 #ifndef _LINKED_SORTED_LIST
 #define _LINKED_SORTED_LIST
-
-#include "SortedListInterface.h"
-#include "Node.h"
-#include "PrecondViolatedExcep.h"
 
 template<class ItemType>
 class LinkedSortedList : public SortedListInterface<ItemType>

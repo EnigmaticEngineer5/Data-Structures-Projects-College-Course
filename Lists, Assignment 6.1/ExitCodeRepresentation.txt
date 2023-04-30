@@ -1,0 +1,179 @@
+
+Set #1
+        - How many numbers for the set would you like? --> 10
+        - Enter the number #1 --> 4
+        - Enter the number #2 --> 5
+        - Enter the number #3 --> 3
+        - Enter the number #4 --> 7
+        - Enter the number #5 --> 8
+        - Enter the number #6 --> 9
+        - Enter the number #7 --> 20
+        - Enter the number #8 --> 45
+        - Enter the number #9 --> 67
+        - Enter the number #10 --> 89
+
+Set #2
+        - How many numbers for the set would you like? --> 12
+        - Enter the number #1 --> 1
+        - Enter the number #2 --> 2
+        - Enter the number #3 --> 3
+        - Enter the number #4 --> 4
+        - Enter the number #5 --> 5
+        - Enter the number #6 --> 6
+        - Enter the number #7 --> 13
+        - Enter the number #8 --> 14
+        - Enter the number #9 --> 46
+        - Enter the number #10 --> 67
+        - Enter the number #11 --> 89
+        - Enter the number #12 --> 90
+
+Select what you want to know about your sets:
+        1) Get Union
+        2) Get Intersection
+        3) Get Difference
+        4) Get Symmetric Difference
+        5) Compare them
+        6) Print sets
+        7) Exit program
+Answer here --> 1
+Union of sets...
+        1 is true.
+        2 is true.
+        3 is true.
+        4 is true.
+        5 is true.
+        6 is true.
+        7 is true.
+        8 is true.
+        9 is true.
+        13 is true.
+        14 is true.
+        20 is true.
+        45 is true.
+        46 is true.
+        67 is true.
+        89 is true.
+        90 is true.
+
+Select what you want to know about your sets:
+        1) Get Union
+        2) Get Intersection
+        3) Get Difference
+        4) Get Symmetric Difference
+        5) Compare them
+        6) Print sets
+        7) Exit program
+Answer here --> 2
+
+Intersection of sets...
+        3 is true.
+        4 is true.
+        5 is true.
+        67 is true.
+        89 is true.
+
+Select what you want to know about your sets:
+        1) Get Union
+        2) Get Intersection
+        3) Get Difference
+        4) Get Symmetric Difference
+        5) Compare them
+        6) Print sets
+        7) Exit program
+Answer here --> 3
+
+Difference between sets...
+        7 is true.
+        8 is true.
+        9 is true.
+        20 is true.
+        45 is true.
+
+Select what you want to know about your sets:
+        1) Get Union
+        2) Get Intersection
+        3) Get Difference
+        4) Get Symmetric Difference
+        5) Compare them
+        6) Print sets
+        7) Exit program
+Answer here --> 4
+
+Symmetric difference between sets...
+        1 is true.
+        2 is true.
+        6 is true.
+        7 is true.
+        8 is true.
+        9 is true.
+        13 is true.
+        14 is true.
+        20 is true.
+        45 is true.
+        46 is true.
+        90 is true.
+
+Select what you want to know about your sets:
+        1) Get Union
+        2) Get Intersection
+        3) Get Difference
+        4) Get Symmetric Difference
+        5) Compare them
+        6) Print sets
+        7) Exit program
+Answer here --> 5
+
+        - Is set 1 equal to set 2? --> false
+
+Select what you want to know about your sets:
+        1) Get Union
+        2) Get Intersection
+        3) Get Difference
+        4) Get Symmetric Difference
+        5) Compare them
+        6) Print sets
+        7) Exit program
+Answer here --> 6
+
+Set #1
+        3 is true.
+        4 is true.
+        5 is true.
+        7 is true.
+        8 is true.
+        9 is true.
+        20 is true.
+        45 is true.
+        67 is true.
+        89 is true.
+
+Set #2
+        1 is true.
+        2 is true.
+        3 is true.
+        4 is true.
+        5 is true.
+        6 is true.
+        13 is true.
+        14 is true.
+        46 is true.
+        67 is true.
+        89 is true.
+        90 is true.
+
+Select what you want to know about your sets:
+        1) Get Union
+        2) Get Intersection
+        3) Get Difference
+        4) Get Symmetric Difference
+        5) Compare them
+        6) Print sets
+        7) Exit program
+Answer here --> 7
+
+Exiting program...
+
+
+
+C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\Release\Lists, Assignment 6.1.exe (process 29716) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.

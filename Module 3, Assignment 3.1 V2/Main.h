@@ -1,3 +1,5 @@
+#pragma once
+
 void getDegreeOperation(const ArrayBag<Polynomial>& polynomials);
 void getPolynomialIndex(int& polyTarget, const ArrayBag<Polynomial>& polynomials);
 void sumOperations(ArrayBag<Polynomial>& polynomials);

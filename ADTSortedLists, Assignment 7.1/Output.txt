@@ -1,0 +1,82 @@
+
+SortedListInterface default constructor invoked...
+
+LinkedSortedList default constructor invoked...
+        - Enter the INCHES of RAIN that happened during January --> 3
+        - Enter the INCHES of RAIN that happened during February --> 54.34
+        - Enter the INCHES of RAIN that happened during March --> 12
+        - Enter the INCHES of RAIN that happened during April --> 16
+        - Enter the INCHES of RAIN that happened during May --> 2
+        - Enter the INCHES of RAIN that happened during June --> 34
+        - Enter the INCHES of RAIN that happened during July --> 22
+        - Enter the INCHES of RAIN that happened during August --> 8
+        - Enter the INCHES of RAIN that happened during September --> 1
+        - Enter the INCHES of RAIN that happened during October --> 9
+        - Enter the INCHES of RAIN that happened during November --> 45
+        - Enter the INCHES of RAIN that happened during December --> 2
+
+Stats:
+        - The TOTAL of rainfall throughout the year is --> 208.34
+        - The AVERAGE of rainfall throughout the year is --> 17.3617
+
+        - The month with HIGHEST rain was --> February
+        - With a rain amount of --> 54.34
+
+        - The month with LOWEST rain was --> September
+        - With a rain amount of --> 1
+
+The months, in order of highest to lowest, with respect to rain are:
+Month #1
+        - MONTH --> February
+        - The RAIN was --> 54.34 inches
+
+Month #2
+        - MONTH --> November
+        - The RAIN was --> 45 inches
+
+Month #3
+        - MONTH --> June
+        - The RAIN was --> 34 inches
+
+Month #4
+        - MONTH --> July
+        - The RAIN was --> 22 inches
+
+Month #5
+        - MONTH --> April
+        - The RAIN was --> 16 inches
+
+Month #6
+        - MONTH --> March
+        - The RAIN was --> 12 inches
+
+Month #7
+        - MONTH --> October
+        - The RAIN was --> 9 inches
+
+Month #8
+        - MONTH --> August
+        - The RAIN was --> 8 inches
+
+Month #9
+        - MONTH --> January
+        - The RAIN was --> 3 inches
+
+Month #10
+        - MONTH --> May
+        - The RAIN was --> 2 inches
+
+Month #11
+        - MONTH --> December
+        - The RAIN was --> 2 inches
+
+Month #12
+        - MONTH --> September
+        - The RAIN was --> 1 inches
+
+LinkedSortedList destructor invoked...
+SortedListInterface destructor invoked...
+
+C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\Release\ADTSortedLists, Assignment 7.1.exe (process 14644) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

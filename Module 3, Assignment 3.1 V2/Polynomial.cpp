@@ -232,7 +232,7 @@ Polynomial& Polynomial::operator + (const Polynomial& rightSide) {
 
 		if (rightCopy.poly.getCurrentSize() > 0) {
 			for (int i{}; i < rightCopy.poly.getCurrentSize(); i++) {
-				cout << "\nUnable to combine this term --> " << rightCopy.poly.getItem(i)
+				cout << "\n\nUnable to combine this term --> " << rightCopy.poly.getItem(i)
 					<< "\nIt is going to be appended in the end...";
 				this->poly.add(rightCopy.poly.getItem(i));
 			}
@@ -254,7 +254,7 @@ Polynomial& Polynomial::operator + (const Polynomial& rightSide) {
 
 		if (leftCopy.poly.getCurrentSize() > 0) {
 			for (int i{}; i < leftCopy.poly.getCurrentSize(); i++) {
-				cout << "\nUnable to combine this term --> " << leftCopy.poly.getItem(i)
+				cout << "\n\nUnable to combine this term --> " << leftCopy.poly.getItem(i)
 					<< "\nIt is going to be appended in the end...";
 				this->poly.add(leftCopy.poly.getItem(i));
 			}

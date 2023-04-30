@@ -29,7 +29,7 @@ void Node<ItemType>::setItem(const ItemType& anItem)
 } // end setItem
 
 template<class ItemType>
-void Node<ItemType>::setNext(Node<ItemType>* nextNodePtr)
+void Node<ItemType>::setNext(Node<T>* nextNodePtr)
 {
    next = nextNodePtr;
 } // end setNext

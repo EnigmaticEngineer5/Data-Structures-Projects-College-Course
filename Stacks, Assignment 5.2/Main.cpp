@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int precedence(char ch) {
+const int precedence(char ch) {
 	switch (ch) {
 	case '(':
 		return 0;

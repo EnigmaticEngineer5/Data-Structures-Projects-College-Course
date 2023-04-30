@@ -17,12 +17,13 @@ public:
 
 	//Requested methods...
 	const bool addToBeginning(const ItemType&) override;
-	const bool removeFirstNode() override;
-	void displayForward() const;
-	void displayBackwards() const;
+	const bool removeFirstNode(const ItemType&) override;
 	Node<ItemType>* rotateNodes(const ItemType&) const;
 	Node<ItemType>* rightRotate(const ItemType&, Node<ItemType>* = nullptr) const override;
 	Node<ItemType>* leftRotate(const ItemType&, Node<ItemType>* = nullptr) const override;
+
+	void displayForward() const;
+	void displayBackwards() const;
 
 	//Default methods...
 	const int getCurrentSize() const override;
@@ -61,7 +62,6 @@ inline DoublyLinkedBag<ItemType>::~DoublyLinkedBag()
 	cout << "\nDoublyLinkedBag released...";
 }
 
-
 template<class ItemType>
 inline const bool DoublyLinkedBag<ItemType>::addToBeginning(const ItemType& newEntry)
 {
@@ -71,22 +71,25 @@ inline const bool DoublyLinkedBag<ItemType>::addToBeginning(const ItemType& newE
 	}
 	else
 	{
-		Node<ItemType>* newNodePtr{ new Node<ItemType>{newEntry} };
+		Node<ItemType>* newNodePtr{ new Node<ItemType>{newEntry} }, * origTail{ tailPtr };
 		headPtr->setPrev(newNodePtr);
 		newNodePtr->setNext(headPtr).setPrev(nullptr);
 		headPtr = newNodePtr;
+
+		while (origTail != nullptr) {
+			origTail = origTail->getPrev();
+		}
+		origTail = newNodePtr;
 
 		itemCount++;
 		cout << "\nNode added...\n";
 
 		return true;
 	}
-
-	return false;
 }
 
 template<class ItemType>
-inline const bool DoublyLinkedBag<ItemType>::removeFirstNode()
+inline const bool DoublyLinkedBag<ItemType>::removeFirstNode(const ItemType& target)
 {
 	if (isEmpty()) {
 		cout << "\nNo more nodes available to remove!";
@@ -94,15 +97,69 @@ inline const bool DoublyLinkedBag<ItemType>::removeFirstNode()
 	else {
 		if (getCurrentSize() == 1) {
 			delete headPtr;
+			itemCount--;
+			cout << "\nNode removed...";
+			return true;
 		}
 		else {
+			if (headPtr->getItem() == target) {//Found in first node of list
+				Node<ItemType>* nodeToDelete{ headPtr };
+				headPtr = headPtr->getNext();
+
+				nodeToDelete->setNext(nullptr);
+				delete nodeToDelete;
+				nodeToDelete = nullptr;
+
+				headPtr->setPrev(nullptr);
+
+				itemCount--;
+				return true;
+			}
+
+			//Search target
+			Node<ItemType>* targetPtr{ headPtr };
+			while ((targetPtr != nullptr) && (targetPtr->getItem() != target)) {
+				targetPtr = targetPtr->getNext();
+			}
+
+			//Stop if not found
+			if (targetPtr == nullptr) {
+				return false;
+			}
+
+			//Unlink that node and connect the surrounding two
+			Node<ItemType>* prev{ targetPtr->getPrev() }, * next{ targetPtr->getNext() };
+
+			if (prev != nullptr) {
+				prev->setNext(next);
+			}
+			if (next != nullptr) {
+				next->setPrev(prev);
+			}
+
+			prev = nullptr;
+			next = nullptr;
+
+			//Prepare target node and move it to beginning of list.
+			Node<ItemType>* toMove{ targetPtr };
+			targetPtr = nullptr;
+
+			toMove->setPrev(nullptr).setNext(headPtr);
+			headPtr->setPrev(toMove);
+			headPtr = toMove;
+
+			toMove = nullptr;
+
+			//Get node to delete and disconnect it from the chain.
 			Node<ItemType>* nodeToDelete{ headPtr };
 			headPtr = headPtr->getNext();
-
 			nodeToDelete->setNext(nullptr);
+
+			//Delete first node...
 			delete nodeToDelete;
 			nodeToDelete = nullptr;
 
+			//Adjust head again...
 			headPtr->setPrev(nullptr).setNext(headPtr->getNext());
 		}
 
@@ -124,7 +181,7 @@ inline void DoublyLinkedBag<ItemType>::displayForward() const
 		cout << '\n';
 		Node <ItemType>* curPtr{ headPtr };
 		while (curPtr != nullptr) {
-			cout << curPtr->getItem() << '\n';
+			cout << curPtr->getItem() << ' ';
 			curPtr = curPtr->getNext();
 		}
 	}
@@ -140,7 +197,7 @@ inline void DoublyLinkedBag<ItemType>::displayBackwards() const
 		cout << '\n';
 		Node <ItemType>* curPtr{ tailPtr };
 		while (curPtr != nullptr) {
-			cout << curPtr->getItem() << '\n';
+			cout << curPtr->getItem() << ' ';
 			curPtr = curPtr->getPrev();
 		}
 	}
@@ -156,6 +213,7 @@ inline Node<ItemType>* DoublyLinkedBag<ItemType>::rotateNodes(const ItemType& ta
 	cin >> direction;
 
 	if (direction == 1) {
+		return rightRotate(targetItem, headPtr);
 	}
 	return leftRotate(targetItem, tailPtr);
 }
@@ -163,39 +221,61 @@ inline Node<ItemType>* DoublyLinkedBag<ItemType>::rotateNodes(const ItemType& ta
 template<class ItemType>
 inline  Node<ItemType>* DoublyLinkedBag<ItemType>::rightRotate(const ItemType& target, Node<ItemType>* curPtr) const
 {
-	Node<ItemType>* result{ nullptr };
-	if (curPtr != nullptr)
-	{
-		if (target == curPtr->getItem())
-		{
-			result = curPtr;
-		}
-		else
-		{
-			result = rightRotate(target, curPtr->getNext());
-		}
+	//Search target
+	while (curPtr != nullptr && curPtr->getItem() != target) {
+		curPtr = curPtr->getNext();
 	}
 
-	return result;
+	//If not found, return
+	if (curPtr == nullptr) {
+		return curPtr;
+	}
+
+	//Print target and everything after
+	int counter{};
+	while (curPtr != nullptr) {
+		cout << curPtr->getItem() << ' ';
+		curPtr = curPtr->getNext();
+		counter++;
+	}
+
+	//If counter is has not reached max, iterate 
+	//through the missing elements by starting on the beginning of the list again.
+	Node<ItemType>* origChain{ headPtr };
+	while (counter++ != getCurrentSize()) {
+		cout << origChain->getItem() << ' ';
+		origChain = origChain->getNext();
+	}
+
+	return origChain; //Serves as a reference point, 
+	//won't return null so it means we found the target.
 }
 
 template<class ItemType>
 inline  Node<ItemType>* DoublyLinkedBag<ItemType>::leftRotate(const ItemType& target, Node<ItemType>* curPtr) const
 {
-	Node<ItemType>* result{ nullptr };
-	if (curPtr != nullptr)
-	{
-		if (target == curPtr->getItem())
-		{
-			result = curPtr;
-		}
-		else
-		{
-			result = leftRotate(target, curPtr->getPrev());
-		}
+	while (curPtr != nullptr && curPtr->getItem() != target) {
+		curPtr = curPtr->getPrev();
 	}
 
-	return result;
+	if (curPtr == nullptr) {
+		return curPtr;
+	}
+
+	int counter{};
+	while (curPtr != nullptr) {
+		cout << curPtr->getItem() << ' ';
+		curPtr = curPtr->getPrev();
+		counter++;
+	}
+
+	Node<ItemType>* origTail{ tailPtr };
+	while (counter++ != getCurrentSize()) {
+		cout << origTail->getItem() << ' ';
+		origTail = origTail->getPrev();
+	}
+
+	return origTail;
 }
 
 template<class ItemType>
@@ -239,8 +319,7 @@ inline void DoublyLinkedBag<ItemType>::clear() {
 		Node<ItemType>* nodeToDeletePtr{ headPtr };
 		headPtr = headPtr->getNext();
 
-		nodeToDeletePtr->setNext(nullptr);
-		delete nodeToDeletePtr;
+		nodeToDeletePtr->setNext(nullptr).setPrev(nullptr);
 		nodeToDeletePtr = nullptr;
 	}
 
@@ -249,12 +328,7 @@ inline void DoublyLinkedBag<ItemType>::clear() {
 		Node<ItemType>* nodeToDeletePtr{ tailPtr };
 		tailPtr = tailPtr->getPrev();
 
-		if (tailPtr != nullptr)
-		{
-			tailPtr->setNext(nullptr);
-		}
-
-		nodeToDeletePtr->setPrev(nullptr);
+		nodeToDeletePtr->setPrev(nullptr).setNext(nullptr);
 		nodeToDeletePtr = nullptr;
 	}
 

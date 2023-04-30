@@ -1,0 +1,348 @@
+
+Bag interface constructor invoked...
+DoublyLinkedBag constructor invoked...
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 1
+
+        - Enter number --> 56
+
+56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 1
+
+        - Enter number --> 89
+
+Node added...
+
+89 56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 1
+
+        - Enter number --> 67
+
+Node added...
+
+67 89 56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 1
+
+        - Enter number --> 45
+
+Node added...
+
+45 67 89 56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 1
+
+        - Enter number --> 23
+
+Node added...
+
+23 45 67 89 56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 1
+
+        - Enter number --> 1
+
+Node added...
+
+1 23 45 67 89 56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 1
+
+        - Enter number --> 2
+
+Node added...
+
+2 1 23 45 67 89 56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 1
+
+        - Enter number --> 3
+
+Node added...
+
+3 2 1 23 45 67 89 56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 2
+
+3 2 1 23 45 67 89 56
+What element do you want to remove --> 1
+
+Node removed...
+3 2 23 45 67 89 56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 2
+
+3 2 23 45 67 89 56
+What element do you want to remove --> 3
+
+2 23 45 67 89 56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 3
+
+2 23 45 67 89 56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 4
+
+56 89 67 45 23 2
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 2
+
+2 23 45 67 89 56
+What element do you want to remove --> 2
+
+23 45 67 89 56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 3
+
+23 45 67 89 56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 4
+
+56 89 67 45 23
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 5
+
+23 45 67 89 56
+        - Enter element to initiate rotation --> 45
+
+        1) Right rotate
+        2) Left rotate
+Answer --> 1
+45 67 89 56 23
+Element found...
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 5
+
+23 45 67 89 56
+        - Enter element to initiate rotation --> 23
+
+        1) Right rotate
+        2) Left rotate
+Answer --> 2
+23 56 89 67 45
+Element found...
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 2
+
+23 45 67 89 56
+What element do you want to remove --> 23
+
+45 67 89 56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 2
+
+45 67 89 56
+What element do you want to remove --> 89
+
+Node removed...
+45 67 56
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 2
+
+45 67 56
+What element do you want to remove --> 56
+
+Node removed...
+45 67
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 2
+
+45 67
+What element do you want to remove --> 45
+
+67
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 2
+
+Node removed...
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 2
+
+The list is empty...
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 3
+
+There are no elements to display...
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 4
+
+There are no elements to display...
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 5
+
+There are no elements to search!
+
+        1) Add element to beginning of list
+        2) Remove element
+        3) Display list forward
+        4) Display list backward
+        5) Rotate nodes
+        6) Exit program
+Answer here --> 6
+
+Exiting program...
+
+
+DoublyLinkedBag released...
+BagInterface destructor invoked...
+C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\Release\LinkedLists, Assignment 4.2 V2.exe (process 27660) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

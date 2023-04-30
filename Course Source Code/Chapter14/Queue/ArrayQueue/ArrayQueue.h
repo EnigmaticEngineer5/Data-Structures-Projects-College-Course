@@ -8,8 +8,7 @@
 #ifndef _ARRAY_QUEUE
 #define _ARRAY_QUEUE
 
-#include "QueueInterface.h"
-#include "PrecondViolatedExcep.h"
+#include "../QueueInterface.h"
 
 const int MAX_QUEUE = 50;
 

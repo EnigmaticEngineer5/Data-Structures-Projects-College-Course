@@ -8,6 +8,8 @@
 #ifndef _LIST_INTERFACE
 #define _LIST_INTERFACE
 
+#include "../Queue, Assignment 8.1/PrecondViolatedExcep.h"
+
 template<class ItemType>
 class ListInterface
 {
@@ -49,13 +51,13 @@ public:
     @post  The desired entry has been returned.
     @param position  The list position of the desired entry.
     @return  The entry at the given position. */
-   virtual ItemType getEntry(int position) const = 0;
+   virtual ItemType getEntry(int position) const throw(PrecondViolatedExcep) = 0;
    
    /** Replaces the entry at the given position in this list.
     @pre  1 <= position <= getLength().
     @post  The entry at the given position is newEntry.
     @param position  The list position of the entry to replace.
     @param newEntry  The replacement entry. */
-   virtual void setEntry(int position, const ItemType& newEntry) = 0;
+   //virtual void setEntry(int position, const ItemType& newEntry) throw(PrecondViolatedExcep) = 0;
 }; // end ListInterface
 #endif

@@ -1,0 +1,160 @@
+
+Set #1
+        - How many numbers for the set would you like? --> -2
+
+Please re-enter a valid amount of numbers --> 3
+        - Enter the number #1 --> -1
+
+Invalid range!
+        - Enter the number again --> -20
+
+Invalid range!
+        - Enter the number again --> 101
+
+Invalid range!
+        - Enter the number again --> 100
+        - Enter the number #2 --> 34
+        - Enter the number #3 --> 56
+
+Set #2
+        - How many numbers for the set would you like? --> hola
+
+Invalid entry, please re-enter --> 5
+        - Enter the number #1 --> buenas
+
+You cannot enter a string as an answer for the place of an integer!
+Invalid entry, please re-enter --> adios
+
+You cannot enter a string as an answer for the place of an integer!
+Invalid entry, please re-enter --> input
+
+You cannot enter a string as an answer for the place of an integer!
+Invalid entry, please re-enter --> 120
+
+Invalid range!
+        - Enter the number again --> -2
+
+Invalid range!
+        - Enter the number again --> 3
+        - Enter the number #2 -->
+6
+        - Enter the number #3 --> 9
+        - Enter the number #4 --> 90
+        - Enter the number #5 --> 45
+
+Select what you want to know about your sets:
+        1) Get Union
+        2) Get Intersection
+        3) Get Difference
+        4) Get Symmetric Difference
+        5) Compare them
+        6) Print sets
+        7) Exit program
+Answer here --> 1
+Union of sets...
+        3 is true.
+        6 is true.
+        9 is true.
+        34 is true.
+        45 is true.
+        56 is true.
+        90 is true.
+        100 is true.
+
+Select what you want to know about your sets:
+        1) Get Union
+        2) Get Intersection
+        3) Get Difference
+        4) Get Symmetric Difference
+        5) Compare them
+        6) Print sets
+        7) Exit program
+Answer here --> 2
+
+Intersection of sets...
+
+Select what you want to know about your sets:
+        1) Get Union
+        2) Get Intersection
+        3) Get Difference
+        4) Get Symmetric Difference
+        5) Compare them
+        6) Print sets
+        7) Exit program
+Answer here --> 3
+
+Difference between sets...
+        34 is true.
+        56 is true.
+        100 is true.
+
+Select what you want to know about your sets:
+        1) Get Union
+        2) Get Intersection
+        3) Get Difference
+        4) Get Symmetric Difference
+        5) Compare them
+        6) Print sets
+        7) Exit program
+Answer here --> 4
+
+Symmetric difference between sets...
+        3 is true.
+        6 is true.
+        9 is true.
+        34 is true.
+        45 is true.
+        56 is true.
+        90 is true.
+        100 is true.
+
+Select what you want to know about your sets:
+        1) Get Union
+        2) Get Intersection
+        3) Get Difference
+        4) Get Symmetric Difference
+        5) Compare them
+        6) Print sets
+        7) Exit program
+Answer here --> 5
+
+        - Is set 1 equal to set 2? --> false
+
+Select what you want to know about your sets:
+        1) Get Union
+        2) Get Intersection
+        3) Get Difference
+        4) Get Symmetric Difference
+        5) Compare them
+        6) Print sets
+        7) Exit program
+Answer here --> 6
+
+Set #1
+        34 is true.
+        56 is true.
+        100 is true.
+
+Set #2
+        3 is true.
+        6 is true.
+        9 is true.
+        45 is true.
+        90 is true.
+
+Select what you want to know about your sets:
+        1) Get Union
+        2) Get Intersection
+        3) Get Difference
+        4) Get Symmetric Difference
+        5) Compare them
+        6) Print sets
+        7) Exit program
+Answer here --> 7
+
+Exiting program...
+
+
+
+C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\Release\Lists, Assignment 6.1.exe (process 30120) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.

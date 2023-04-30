@@ -4,8 +4,8 @@
 /** Listing 7-5.
     @file PrecondViolatedExcep.h */
 
-#ifndef _PRECOND_VIOLATED_EXCEP
-#define _PRECOND_VIOLATED_EXCEP
+#pragma once
+
 #include<iostream>
 #include <stdexcept>
 #include <string>
@@ -20,4 +20,3 @@ PrecondViolatedExcep::PrecondViolatedExcep(const string& message) : logic_error(
 {
 	//cout << "Not Found Exception: " + message << endl;
 }  // end constructor
-#endif

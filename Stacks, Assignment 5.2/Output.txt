@@ -1,0 +1,38 @@
+
+Expression #1
+- Infix Expression --> a - b + c
+        - Postfix Expression --> ab-c+
+
+Expression #2
+- Infix Expression --> a - (b / c * d)
+        - Postfix Expression --> abc/d*-
+
+Expression #3
+- Infix Expression --> a / (b * c)
+        - Postfix Expression --> abc*/
+
+Expression #4
+- Infix Expression --> a / b / c - (d + e) * f
+        - Postfix Expression --> ab/c/de+f*-
+
+Expression #5
+- Infix Expression --> (a + b) * c
+        - Postfix Expression --> ab+c*
+
+Expression #6
+- Infix Expression --> a * (b / c / d) + e
+        - Postfix Expression --> abc/d/*e+
+
+Expression #7
+- Infix Expression --> a - (b + c)
+        - Postfix Expression --> abc+-
+
+Expression #8
+- Infix Expression --> a - (b + c * d) / e
+        - Postfix Expression --> abcd*+e/-
+
+
+
+C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\Release\Stacks, Assignment 5.2.exe (process 20620) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

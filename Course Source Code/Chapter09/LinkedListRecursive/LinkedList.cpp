@@ -41,7 +41,7 @@ bool LinkedList<ItemType>::insert(int newPosition, const ItemType& newEntry)
    {
       // Create a new node containing the new entry
       Node<ItemType>* newNodePtr = new Node<ItemType>(newEntry);
-      headPtr = insertNode(newPosition, newNodePtr, headPtr);
+      tailPtr = insertNode(newPosition, newNodePtr, tailPtr);
    }  // end if
    
    return ableToInsert;
@@ -57,8 +57,8 @@ bool LinkedList<ItemType>::remove(int position)
       if (position == 1)
       {
          // Remove the first node in the chain
-         curPtr = headPtr; // Save pointer to node
-         headPtr = headPtr->getNext();
+         curPtr = tailPtr; // Save pointer to node
+         tailPtr = tailPtr->getNext();
       }
       else
       {

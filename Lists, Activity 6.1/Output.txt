@@ -1,0 +1,128 @@
+
+        - Enter the Kid's name --> Carlos Snow
+        - How many gifts for Carlos Snow? --> 5
+
+        - What's gift #1? --> iPhone 15
+        - What's gift #2? --> Minecraf
+        - What's gift #3? --> Fortnite
+        - What's gift #4? --> Calculator
+        - What's gift #5? --> Basketball
+
+
+Select an operation:
+        1) Check if the gift list is empty
+        2) Get gift count
+        3) Add a new gift
+        4) Remove a gift
+        5) Display gift list
+        6) Replace a gift
+        7) Exit program
+Answer --> 1
+
+The kid has pending gifts!
+
+Select an operation:
+        1) Check if the gift list is empty
+        2) Get gift count
+        3) Add a new gift
+        4) Remove a gift
+        5) Display gift list
+        6) Replace a gift
+        7) Exit program
+Answer --> 2
+
+        - The kid has --> 5 pending gifts!
+
+Select an operation:
+        1) Check if the gift list is empty
+        2) Get gift count
+        3) Add a new gift
+        4) Remove a gift
+        5) Display gift list
+        6) Replace a gift
+        7) Exit program
+Answer --> 3
+
+        - Enter the Kid's new gift --> Airpods
+
+        - Carlos Snow has 5 gifts!
+Those are:
+Gift #1 --> Basketball
+Gift #2 --> Calculator
+Gift #3 --> Fortnite
+Gift #4 --> Minecraf
+Gift #5 --> iPhone 15
+
+Select an operation:
+        1) Check if the gift list is empty
+        2) Get gift count
+        3) Add a new gift
+        4) Remove a gift
+        5) Display gift list
+        6) Replace a gift
+        7) Exit program
+Answer --> 4
+
+        - Enter the Kid's gift index to remove --> 4
+
+        - Carlos Snow has 4 gifts!
+Those are:
+Gift #1 --> Basketball
+Gift #2 --> Calculator
+Gift #3 --> Fortnite
+Gift #4 --> iPhone 15
+
+Select an operation:
+        1) Check if the gift list is empty
+        2) Get gift count
+        3) Add a new gift
+        4) Remove a gift
+        5) Display gift list
+        6) Replace a gift
+        7) Exit program
+Answer --> 5
+
+        - Carlos Snow has 4 gifts!
+Those are:
+Gift #1 --> Basketball
+Gift #2 --> Calculator
+Gift #3 --> Fortnite
+Gift #4 --> iPhone 15
+
+Select an operation:
+        1) Check if the gift list is empty
+        2) Get gift count
+        3) Add a new gift
+        4) Remove a gift
+        5) Display gift list
+        6) Replace a gift
+        7) Exit program
+Answer --> 6
+
+        - Enter the Kid's new gift --> Valorant
+
+        - Enter the Kid's gift index to replace --> 3
+
+        - Carlos Snow has 4 gifts!
+Those are:
+Gift #1 --> Basketball
+Gift #2 --> Calculator
+Gift #3 --> Valorant
+Gift #4 --> iPhone 15
+
+Select an operation:
+        1) Check if the gift list is empty
+        2) Get gift count
+        3) Add a new gift
+        4) Remove a gift
+        5) Display gift list
+        6) Replace a gift
+        7) Exit program
+Answer --> 7
+
+Exiting program...
+
+
+C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\Release\Lists, Activity 6.1.exe (process 30512) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

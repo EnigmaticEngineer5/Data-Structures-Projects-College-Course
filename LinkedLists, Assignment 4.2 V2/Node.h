@@ -39,7 +39,6 @@ inline Node<ItemType>::~Node()
 {
 	if (prev != nullptr)
 	{
-		//delete prev;
 		prev = nullptr;
 	}
 

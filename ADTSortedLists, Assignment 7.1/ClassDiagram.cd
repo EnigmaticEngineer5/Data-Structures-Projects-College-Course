@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="RainfallMonth">
+    <Position X="1.75" Y="1" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAABBAAAgAAAAAEQQAAAAAAAAAgAAAgAAAAAAE=</HashCode>
+      <FileName>C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\ADT SortedList, Assessment 7.1\RainfallMonth.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RainfallStadistics">
+    <Position X="5.5" Y="1" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAVAAAAAAAABAAAIAAAAATABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\ADT SortedList, Assessment 7.1\RainfallStadistics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
