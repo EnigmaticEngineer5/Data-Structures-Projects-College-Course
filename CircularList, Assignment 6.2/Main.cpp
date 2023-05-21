@@ -1,9 +1,11 @@
 #include "CircularList.h"
 
 int main() {
-	CircularList numsList{};
-	cin >> numsList;
-	cout << "\n\t- The reversed list is --> " << numsList.reverseList() << "\n\n";
+	CircularList list1;
+	cin >> list1;
+
+	list1.reverseList();
+	cout << "\n\t --> Reversed list: " << list1 << "\n\n";
 
 	return 0;
 }

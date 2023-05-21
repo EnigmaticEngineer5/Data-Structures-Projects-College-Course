@@ -1,59 +1,34 @@
-//  Created by Frank M. Carrano and Tim Henry.
-//  Copyright (c) 2013 __Pearson Education__. All rights reserved.
-
-/** ADT priority queue: ADT sorted list implementation.
- Listing 14-6.
- @file SL_PriorityQueue.h */
-
-#ifndef _PRIORITY_QUEUE
-#define _PRIORITY_QUEUE
-
 #include "PriorityQueueInterface.h"
 #include "../ADTSortedLists, Assignment 7.1/LinkedSortedList.h"
 
 template<class ItemType>
-class SL_PriorityQueue : public PriorityQueueInterface<ItemType>
+class SL_PriorityQueue final : public PriorityQueueInterface<ItemType>
 {
 private:
-	LinkedSortedList<ItemType>* slistPtr;  // Pointer to sorted list of
-	// items in the priority queue
+	LinkedSortedList<ItemType>* slistPtr;
 
 public:
 	SL_PriorityQueue();
-	SL_PriorityQueue(const SL_PriorityQueue& pq);
-	~SL_PriorityQueue();
+	virtual ~SL_PriorityQueue();
 
 	const bool isEmpty() const override;
-	const bool add(const ItemType& newEntry) override;
+	const bool add(const ItemType&) override;
 	const bool remove() override;
 
-	/** @throw PrecondViolatedExcep if priority queue is empty. */
 	const ItemType peek() const override;
-}; // end SL_PriorityQueues
-
-#endif
-
-//  Created by Frank M. Carrano and Tim Henry.
-//  Copyright (c) 2013 __Pearson Education__. All rights reserved.
-// PARITALLY COMPLETE.
-
-/** ADT priority queue: ADT sorted list implementation.
- @file SL_PriorityQueue.cpp */
+	void display() const override;
+};
 
 template<class ItemType>
-inline SL_PriorityQueue<ItemType>::SL_PriorityQueue() : slistPtr(new LinkedSortedList<ItemType>{})
-{
-}
-
-template<class ItemType>
-inline SL_PriorityQueue<ItemType>::SL_PriorityQueue(const SL_PriorityQueue& pq) : slistPtr(pq.slistPtr)
-{
-}
+inline SL_PriorityQueue<ItemType>::SL_PriorityQueue() : slistPtr(new LinkedSortedList<ItemType>{}) {};
 
 template<class ItemType>
 inline SL_PriorityQueue<ItemType>::~SL_PriorityQueue()
 {
-	cout << "SL_PriorityQueue destructor invoked...";
+	if (slistPtr) {
+		delete slistPtr;
+		slistPtr = nullptr;
+	}
 }
 
 template<class ItemType>
@@ -67,17 +42,21 @@ const bool SL_PriorityQueue<ItemType>::add(const ItemType& newEntry)
 {
 	slistPtr->insertSorted(newEntry);
 	return true;
-}  // end add
+}
 
 template<class ItemType>
 const bool SL_PriorityQueue<ItemType>::remove()
 {
-	// The highest priority item is at the end of the sorted list
-	return slistPtr->remove(slistPtr->getLength());
-}  // end remove
+	return slistPtr->remove1(1);
+}
 
 template<class ItemType>
 inline const ItemType SL_PriorityQueue<ItemType>::peek() const
 {
 	return slistPtr->getEntry(1);
+}
+
+template<class ItemType>
+void SL_PriorityQueue<ItemType>::display() const {
+	slistPtr->display();
 }

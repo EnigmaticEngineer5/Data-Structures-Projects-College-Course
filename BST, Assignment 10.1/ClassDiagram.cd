@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BinarySearchTree&lt;ItemType&gt;">
+    <Position X="0.75" Y="8.5" Width="7.25" />
+    <TypeIdentifier>
+      <HashCode>AFAAAAQgAAACQAAEAAEAAAAEgABAQQCAAAAgAQBCYUA=</HashCode>
+      <FileName>BinarySearchTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Date">
+    <Position X="25.25" Y="18.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAIAAAAAAAAAAEQQAAAAQAAgABCAAgAAQAQAA=</HashCode>
+      <FileName>Date.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB">
+    <Position X="25.75" Y="12.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>gAACwAEgCAAAAQAAARAAAQAAAQAAAAAAChEgAAAAIBA=</HashCode>
+      <FileName>DB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyString">
+    <Position X="19" Y="18.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAECAAQIAAAAAACAAAAAwAAAAAAA=</HashCode>
+      <FileName>MyString.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PersonInfo">
+    <Position X="21.75" Y="18.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAIAAAAQAACEAGAABAAAAkAAAAAAA=</HashCode>
+      <FileName>PersonInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BinaryNode&lt;ItemType&gt;">
+    <Position X="19" Y="12.5" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAESADAAAAIAAQAQAAAABAAAAAEAAAgAAAAAAA=</HashCode>
+      <FileName>C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\Binary Trees, Assignment 9.1\BinaryNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BinaryNodeTree&lt;ItemType&gt;">
+    <Position X="9.75" Y="1.75" Width="8.5" />
+    <TypeIdentifier>
+      <HashCode>AXSAEAQgIIACAgAEAAEAAAAEgAAAQACEhAAgKQBHYUA=</HashCode>
+      <FileName>C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\Binary Trees, Assignment 9.1\BinaryNodeTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BinaryTreeInterface&lt;ItemType&gt;">
+    <Position X="1" Y="0.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AFAAAAAAAAAAAAAEAAEAAAAEgAAAQACAAAAAAABCYEA=</HashCode>
+      <FileName>C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\Binary Trees, Assignment 9.1\BinaryTreeInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="FunctionType" Collapsed="true">
+    <Position X="29.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\Binary Trees, Assignment 9.1\BinaryNodeTree.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

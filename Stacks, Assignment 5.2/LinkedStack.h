@@ -9,7 +9,7 @@
 #define _LINKED_STACK
 
 #include "../Stacks, Assignment 5.1/StackInterface.h"
-#include "../LinkedLists, Assignment 4.1/Node.h"
+#include "../LinkedLists, Assignment 4.2 V2/Node.h"
 
 template<class ItemType>
 class LinkedStack : public StackInterface<ItemType>

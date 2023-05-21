@@ -1,9 +1,8 @@
 #include "NiceKid.h"
-
-NiceKid::NiceKid() : kidName{}, giftList{} {};
-NiceKid::NiceKid(const string sourceName, ArrayList<string> sourceList) : kidName{ sourceName }, giftList{ sourceList } {};
-NiceKid::~NiceKid() {};
-
+//
+////NiceKid::NiceKid() : kidName{}, giftList{} {};
+////NiceKid::~NiceKid() {};
+//
 NiceKid& NiceKid::addGift()
 {
 	cout << "\n\t- Enter the Kid's new gift --> ";
@@ -58,7 +57,7 @@ NiceKid& NiceKid::replaceGift()
 
 const int NiceKid::getGiftCount() const
 {
-	return getGiftList().getLength();
+	return giftList.getLength();
 }
 
 NiceKid& NiceKid::setKidName(const string sourceName)
@@ -67,7 +66,7 @@ NiceKid& NiceKid::setKidName(const string sourceName)
 	return *this;
 }
 
-NiceKid& NiceKid::setGiftList(const ArrayList<string> sourceList)
+NiceKid& NiceKid::setGiftList(const LinkedList<string>& sourceList)
 {
 	this->giftList = sourceList;
 	return *this;
@@ -76,11 +75,6 @@ NiceKid& NiceKid::setGiftList(const ArrayList<string> sourceList)
 const string NiceKid::getKidName() const
 {
 	return kidName;
-}
-
-const ArrayList<string> NiceKid::getGiftList() const
-{
-	return giftList;
 }
 
 istream& operator>>(istream& input, NiceKid& sourceKid)
@@ -107,7 +101,7 @@ ostream& operator<<(ostream& output, const NiceKid& sourceKid)
 	cout << "\n\t- " << sourceKid.getKidName() << " has " << sourceKid.getGiftCount() << " gifts!"
 		<< "\nThose are:";
 	for (int i{ 1 }; i <= sourceKid.getGiftCount(); i++) {
-		cout << "\nGift #" << i << " --> " << sourceKid.getGiftList().getEntry(i);
+		cout << "\nGift #" << i << " --> " << sourceKid.giftList.getEntry(i);
 	}
 	return output;
 }

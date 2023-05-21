@@ -13,8 +13,7 @@ public:
 	~CircularList();
 
 	CircularList& setList(const LinkedList<int>&);
-	const LinkedList<int> getList() const;
-	const CircularList reverseList();
+	CircularList& reverseList();
 
 	friend istream& operator >> (istream&, CircularList&);
 	friend ostream& operator << (ostream&, const CircularList&);

@@ -9,22 +9,15 @@ template <class ItemType>
 class BagInterface
 {
 protected:
-	inline BagInterface() {
-		cout << "\nBag interface constructor invoked...";
-	}
-
-	inline ~BagInterface() {
-		cout << "\nBagInterface destructor invoked...";
-	}
+	inline BagInterface() = default;
+	inline ~BagInterface() = default;
 
 public:
-	//Requested methods...
 	inline virtual const bool addToBeginning(const ItemType&) = 0;
 	inline virtual const bool removeFirstNode(const ItemType&) = 0;
-	inline virtual const Node<ItemType>* rightRotate(const ItemType&, Node<ItemType>* = nullptr) const = 0;
-	inline virtual const Node<ItemType>* leftRotate(const ItemType&, Node<ItemType>* = nullptr) const = 0;
+	inline virtual const Node<ItemType>* rightRotate(const ItemType&, Node<ItemType>* = nullptr) = 0;
+	inline virtual const Node<ItemType>* leftRotate(const ItemType&, Node<ItemType>* = nullptr) = 0;
 
-	//Default methods...
 	inline virtual const int getCurrentSize() const = 0;
 	inline virtual const bool isEmpty() const = 0;
 	inline virtual const bool add(const ItemType&) = 0;

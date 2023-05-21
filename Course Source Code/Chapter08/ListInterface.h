@@ -58,6 +58,6 @@ public:
     @post  The entry at the given position is newEntry.
     @param position  The list position of the entry to replace.
     @param newEntry  The replacement entry. */
-   //virtual void setEntry(int position, const ItemType& newEntry) throw(PrecondViolatedExcep) = 0;
+   virtual void setEntry(int position, const ItemType& newEntry) throw(PrecondViolatedExcep) = 0;
 }; // end ListInterface
 #endif

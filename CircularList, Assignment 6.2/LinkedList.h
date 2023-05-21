@@ -49,8 +49,8 @@ public:
 
     /** @throw PrecondViolatedExcep if position < 1 or
                                        position > getLength(). */
-    //void setEntry(int position, const T& newEntry)
-    //    throw(PrecondViolatedExcep);
+    void setEntry(int position, const T& newEntry)
+        throw(PrecondViolatedExcep);
 }; // end LinkedList
 
 #endif 
@@ -198,4 +198,22 @@ Node<T>* LinkedList<T>::insertNode(int position, Node<T>* newNodePtr,
     return subChainPtr;
 }  // end insertNode
 
+template<class T>
+void LinkedList<T>::setEntry(int position, const T& newEntry) throw(PrecondViolatedExcep)
+{
+    bool ableToSet = (position >= 1) && (position <= itemCount);
+    if (ableToSet)
+    {
+        Node<T>* nodePtr = getNodeAt(position);
+        nodePtr->setItem(newEntry);
+    }
+    else
+    {
+        std::string message = "setEntry() called with an empty list or invalid position.";
+        throw(PrecondViolatedExcep(message));
+    }
+}
+
 //  End of implementation file.
+
+

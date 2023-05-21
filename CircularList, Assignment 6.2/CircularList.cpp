@@ -9,7 +9,7 @@ CircularList::CircularList(const LinkedList<int>& sourceList) : numsCircularList
 }
 
 CircularList::CircularList(const CircularList& sourceCircularList) :
-	numsCircularList(sourceCircularList.getList())
+	numsCircularList(sourceCircularList.numsCircularList)
 {
 }
 
@@ -23,21 +23,12 @@ CircularList& CircularList::setList(const LinkedList<int>& sourceList)
 	return *this;
 }
 
-const LinkedList<int> CircularList::getList() const
+
+CircularList& CircularList::reverseList()
 {
-	return numsCircularList;
-}
-
-const CircularList CircularList::reverseList()
-{
-	CircularList tmpReversedList{};
-
-	for (int i{}; i < getList().getLength(); i++) {
-		tmpReversedList.numsCircularList.insert(1, getList().getEntry(i + 1));
-	}
-
-	cout << "\nList reversed...";
-	return tmpReversedList;
+	this->numsCircularList.reverse();
+	cout << "List resversed successfully...";
+	return *this;
 }
 
 istream& operator>>(istream& input, CircularList& sourceList)
@@ -77,8 +68,8 @@ istream& operator>>(istream& input, CircularList& sourceList)
 
 ostream& operator<<(ostream& output, const CircularList& sourceList)
 {
-	for (int i{}; i < sourceList.getList().getLength(); i++) {
-		output << sourceList.getList().getEntry(i + 1) << ' ';
+	for (int i{}; i < sourceList.numsCircularList.getLength(); i++) {
+		output << sourceList.numsCircularList.getEntry(i + 1) << ' ';
 	}
 
 	return output;

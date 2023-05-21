@@ -42,7 +42,7 @@ int main() {
 		switch (selection)
 		{
 		case checkIfEmpty:
-			if (aKidGifts.getGiftList().isEmpty()) {
+			if (aKidGifts.getGiftCount() == 0) {
 				cout << "\nThe kid does not have gifts...";
 			}
 			else {

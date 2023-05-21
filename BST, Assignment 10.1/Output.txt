@@ -1,0 +1,2495 @@
+Welcome to the database!
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 2
+The database is empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 3
+The database is empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 4
+The database is empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 5
+The database is empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 6
+The database is empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 8
+
+There are 0 people in the database.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 9
+The database is empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 10
+
+The height of the tree is 0.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 11
+TreeException:EmptyTree
+
+The root of the tree is         Name -->
+        Birthday --> (0/0/0)
+.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 12
+
+Preorder traversal:
+The database is empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 13
+
+Postorder traversal:
+The database is empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 14
+Person # 1
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 2
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 3
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 4
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 5
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 6
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 7
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 8
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 9
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 10
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 11
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 12
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 13
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 14
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 1
+
+Enter the information for the person you want to add:
+Enter the person's name --> Carlos Snow
+Enter the person's birthday in format (mm/dd/yyyy) --> 8 28 2002
+Person added!
+Person # 1
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 2
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 3
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 4
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 5
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 6
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 7
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 8
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 9
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 10
+        Name --> Carlos Snow
+        Birthday --> (8/28/2002)
+
+Person # 11
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 12
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 13
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 14
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 15
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 2
+Person # 1
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 2
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 3
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 4
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 5
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 6
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 7
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 8
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 9
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 10
+        Name --> Carlos Snow
+        Birthday --> (8/28/2002)
+
+Person # 11
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 12
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 13
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 14
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 15
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Enter the birthday of the person you want to remove --> 12 14 2003
+Tiene un hijo
+        Name --> Carlos Snow
+        Birthday --> (8/28/2002)
+
+Person removed!
+Person # 1
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 2
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 3
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 4
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 5
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 6
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 7
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 8
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 9
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 10
+        Name --> Carlos Snow
+        Birthday --> (8/28/2002)
+
+Person # 11
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 12
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 13
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 14
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 3
+Enter the name of the person you want to search --> Jill
+
+The person is in the database!
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 3
+Enter the name of the person you want to search --> Joe
+
+The person is in the database!
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 4
+Person # 1
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 2
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 3
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 4
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 5
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 6
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 7
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 8
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 9
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 10
+        Name --> Carlos Snow
+        Birthday --> (8/28/2002)
+
+Person # 11
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 12
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 13
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 14
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Enter the birthday of the person you want to modify --> Carlos Snow
+
+Invalid entry, please make sure all inputs are integer types!
+        --> 8 28 2002
+
+Person found!
+Enter the new information for the person:
+Enter the person's name --> Juan
+Enter the person's birthday in format (mm/dd/yyyy) --> 8 28 2002
+Es una hoja
+        Name --> Carlos Snow
+        Birthday --> (8/28/2002)
+
+
+Person modified!
+Person # 1
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 2
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 3
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 4
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 5
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 6
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 7
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 8
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 9
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 10
+        Name --> Juan
+        Birthday --> (8/28/2002)
+
+Person # 11
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 12
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 13
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 14
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 5
+You need to enter the birthday of the person you want to display.
+Enter the birthday of the person you want to display --> 11 11 2020
+The person is in the database!
+
+Displaying the person's information...
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 6
+
+Displaying the people in the database in birthday order...
+Person # 1
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 2
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 3
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 4
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 5
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 6
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 7
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 8
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 9
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 10
+        Name --> Juan
+        Birthday --> (8/28/2002)
+
+Person # 11
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 12
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 13
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 14
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 8
+
+There are 14 people in the database.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 14
+Person # 1
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 2
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 3
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 4
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 5
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 6
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 7
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 8
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 9
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 10
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 11
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 12
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 13
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 14
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 15
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 16
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 17
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 18
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 19
+        Name --> Juan
+        Birthday --> (8/28/2002)
+
+Person # 20
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 21
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 22
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 23
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 24
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 25
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 26
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 27
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Person # 28
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 14
+Person # 1
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 2
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 3
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 4
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 5
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 6
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 7
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 8
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 9
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 10
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 11
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 12
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 13
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 14
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 15
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 16
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 17
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 18
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 19
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 20
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 21
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 22
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 23
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 24
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 25
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 26
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 27
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 28
+        Name --> Juan
+        Birthday --> (8/28/2002)
+
+Person # 29
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 30
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 31
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 32
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 33
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 34
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 35
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 36
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 37
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 38
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 39
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 40
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Person # 41
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Person # 42
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 14
+Person # 1
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 2
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 3
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 4
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 5
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 6
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 7
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 8
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 9
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 10
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 11
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 12
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 13
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 14
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 15
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 16
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 17
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 18
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 19
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 20
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 21
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 22
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 23
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 24
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 25
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 26
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 27
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 28
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 29
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 30
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 31
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 32
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 33
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 34
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 35
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 36
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 37
+        Name --> Juan
+        Birthday --> (8/28/2002)
+
+Person # 38
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 39
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 40
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 41
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 42
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 43
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 44
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 45
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 46
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 47
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 48
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 49
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 50
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 51
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 52
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 53
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Person # 54
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Person # 55
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Person # 56
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 8
+
+There are 56 people in the database.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 9
+
+Displaying the people in the database in name order...
+Person # 1
+Alice
+Person # 2
+Alice
+Person # 3
+Alice
+Person # 4
+Alice
+Person # 5
+Bill
+Person # 6
+Bill
+Person # 7
+Bill
+Person # 8
+Bill
+Person # 9
+Bob
+Person # 10
+Bob
+Person # 11
+Bob
+Person # 12
+Bob
+Person # 13
+Jen
+Person # 14
+Jen
+Person # 15
+Jen
+Person # 16
+Jen
+Person # 17
+Jenny
+Person # 18
+Jenny
+Person # 19
+Jenny
+Person # 20
+Jill
+Person # 21
+Jill
+Person # 22
+Jill
+Person # 23
+Jill
+Person # 24
+Joe
+Person # 25
+Joe
+Person # 26
+Joe
+Person # 27
+Joe
+Person # 28
+John
+Person # 29
+John
+Person # 30
+John
+Person # 31
+John
+Person # 32
+Juan
+Person # 33
+Mary
+Person # 34
+Mary
+Person # 35
+Mary
+Person # 36
+Mary
+Person # 37
+Sally
+Person # 38
+Sally
+Person # 39
+Sally
+Person # 40
+Sally
+Person # 41
+Sue
+Person # 42
+Sue
+Person # 43
+Sue
+Person # 44
+Sue
+Person # 45
+Tim
+Person # 46
+Tim
+Person # 47
+Tim
+Person # 48
+Tim
+Person # 49
+Tom
+Person # 50
+Tom
+Person # 51
+Tom
+Person # 52
+Tom
+Person # 53
+Zack
+Person # 54
+Zack
+Person # 55
+Zack
+Person # 56
+Zack
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 10
+
+The height of the tree is 15.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 11
+
+The root of the tree is         Name --> John
+        Birthday --> (1/1/2000)
+.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 12
+
+Preorder traversal:
+
+Displaying the people in the database in preorder...
+Person # 1
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 2
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 3
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 4
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 5
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 6
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 7
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 8
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 9
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 10
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 11
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 12
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 13
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 14
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 15
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 16
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 17
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 18
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 19
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 20
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 21
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 22
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 23
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 24
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 25
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 26
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 27
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 28
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 29
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 30
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 31
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 32
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 33
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 34
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 35
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 36
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 37
+        Name --> Juan
+        Birthday --> (8/28/2002)
+
+Person # 38
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 39
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 40
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 41
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 42
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 43
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 44
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 45
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 46
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 47
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 48
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 49
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 50
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Person # 51
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 52
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 53
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 54
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Person # 55
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Person # 56
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 13
+
+Postorder traversal:
+
+Displaying the people in the database in postorder...
+Person # 1
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 2
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 3
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 4
+        Name --> Tom
+        Birthday --> (9/9/1950)
+
+Person # 5
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 6
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 7
+        Name --> John
+        Birthday --> (1/1/2000)
+
+Person # 8
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 9
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 10
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 11
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 12
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 13
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 14
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 15
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 16
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 17
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 18
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 19
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 20
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 21
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 22
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 23
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 24
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 25
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 26
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 27
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 28
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 29
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 30
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 31
+        Name --> Jenny
+        Birthday --> (12/14/2003)
+
+Person # 32
+        Name --> Juan
+        Birthday --> (8/28/2002)
+
+Person # 33
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 34
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 35
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 36
+        Name --> Tim
+        Birthday --> (12/13/2005)
+
+Person # 37
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 38
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 39
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 40
+        Name --> Jen
+        Birthday --> (12/12/2007)
+
+Person # 41
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 42
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 43
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 44
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Person # 45
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Person # 46
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Person # 47
+        Name --> Bill
+        Birthday --> (11/11/2020)
+
+Person # 48
+        Name --> Jill
+        Birthday --> (10/10/2008)
+
+Person # 49
+        Name --> Sue
+        Birthday --> (8/8/2000)
+
+Person # 50
+        Name --> Joe
+        Birthday --> (7/7/2000)
+
+Person # 51
+        Name --> Sally
+        Birthday --> (6/6/2000)
+
+Person # 52
+        Name --> Zack
+        Birthday --> (5/5/2000)
+
+Person # 53
+        Name --> Alice
+        Birthday --> (4/4/2000)
+
+Person # 54
+        Name --> Bob
+        Birthday --> (3/3/2000)
+
+Person # 55
+        Name --> Mary
+        Birthday --> (2/2/2000)
+
+Person # 56
+        Name --> John
+        Birthday --> (1/1/2000)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 15
+Database erased!
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 2
+The database is empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 3
+The database is empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 4
+The database is empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 5
+The database is empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 6
+The database is empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 1
+
+Enter the information for the person you want to add:
+Enter the person's name --> Claudia Talavera
+Enter the person's birthday in format (mm/dd/yyyy) --> 5 15 1975
+Person added!
+Person # 1
+        Name --> Claudia Talavera
+        Birthday --> (5/15/1975)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 3
+There is only one person in the database.
+Displaying the person's information...
+        Name --> Claudia Talavera
+        Birthday --> (5/15/1975)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 5
+There is only one person in the database.
+Displaying the person's information...
+        Name --> Claudia Talavera
+        Birthday --> (5/15/1975)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 6
+
+Displaying the people in the database in birthday order...
+Person # 1
+        Name --> Claudia Talavera
+        Birthday --> (5/15/1975)
+
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 2
+There is only one person in the database.
+Removing the person from the database...
+Database erased!
+Person removed!
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 15
+The database is already empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 13
+
+Postorder traversal:
+The database is empty.
+
+What would you like to do?
+        1. Add a person
+        2. Remove a person
+        3. Search for a person
+        4. Modify a person
+        5. Display a person
+        6. Display all people in birthday order
+        7. Exit
+____________________EXTRAS_____________________
+
+        8. Display the number of people in the database
+        9. Display the people in the database in alphabetical order
+        10. Display height of the tree
+        11. Display root of the tree
+        12. Preorder traverse
+        13. Postorder traverse
+        14. Simulate by providing entries
+        15. Erase the database
+______________________________________________
+Enter your choice --> 7
+Exiting program...
+
+C:\Users\carlo\OneDrive - pupr.edu\Important Files\Learning\C++ Code\Data Structures Projects, College Course\Release\BST, Assignment 10.1.exe (process 28384) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

@@ -53,35 +53,40 @@ const int Date::getYear() const
 
 const bool Date::operator==(const Date& rightSide) const
 {
-	int daysOfMonth{ 30 }, daysOfYear{ 365 };
+	int daysOfMonth{ 30 };
+	int daysOfYear{ 365 };
 	return (((getMonth() * daysOfMonth) + getDay() + (getYear() * daysOfYear))
 		== ((rightSide.getMonth() * daysOfMonth) + rightSide.getDay() + (rightSide.getYear() * daysOfYear)));
 }
 
 const bool Date::operator!=(const Date& rightSide) const
 {
-	int daysOfMonth{ 30 }, daysOfYear{ 365 };
+	int daysOfMonth{ 30 };
+	int daysOfYear{ 365 };
 	return (((getMonth() * daysOfMonth) + getDay() + (getYear() * daysOfYear))
 		!= ((rightSide.getMonth() * daysOfMonth) + rightSide.getDay() + (rightSide.getYear() * daysOfYear)));
 }
 
 const bool Date::operator>(const Date& rightSide) const
 {
-	int daysOfMonth{ 30 }, daysOfYear{ 365 };
+	int daysOfMonth{ 30 };
+	int daysOfYear{ 365 };
 	return (((getMonth() * daysOfMonth) + getDay() + (getYear() * daysOfYear))
 		> ((rightSide.getMonth() * daysOfMonth) + rightSide.getDay() + (rightSide.getYear() * daysOfYear)));
 }
 
 const bool Date::operator<(const Date& rightSide) const
 {
-	int daysOfMonth{ 30 }, daysOfYear{ 365 };
+	int daysOfMonth{ 30 };
+	int daysOfYear{ 365 };
 	return (((getMonth() * daysOfMonth) + getDay() + (getYear() * daysOfYear))
 		< ((rightSide.getMonth() * daysOfMonth) + rightSide.getDay() + (rightSide.getYear() * daysOfYear)));
 }
 
 const bool Date::operator<=(const Date& rightSide) const
 {
-	int daysOfMonth{ 30 }, daysOfYear{ 365 };
+	int daysOfMonth{ 30 };
+	int daysOfYear{ 365 };
 	return (((getMonth() * daysOfMonth) + getDay() + (getYear() * daysOfYear))
 		<= ((rightSide.getMonth() * daysOfMonth) + rightSide.getDay() + (rightSide.getYear() * daysOfYear)));
 }

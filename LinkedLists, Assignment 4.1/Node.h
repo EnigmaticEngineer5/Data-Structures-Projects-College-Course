@@ -1,7 +1,7 @@
 #pragma once
 
 template< class ItemType>
-class Node 
+class Node
 {
 private:
 	ItemType item;
@@ -32,13 +32,10 @@ inline Node<ItemType>::Node(const ItemType& anItem, Node<ItemType>* nextNodePtr)
 template<class ItemType>
 inline Node<ItemType>::~Node()
 {
-	if (next != nullptr)
-	{
+	if (next != nullptr) {
 		delete next;
 		next = nullptr;
 	}
-
-	//cout << "\nNode released...";
 }
 
 template< class ItemType>

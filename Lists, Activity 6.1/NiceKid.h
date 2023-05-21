@@ -1,17 +1,16 @@
 #pragma once
 
-#include "../Course Source Code/Chapter09/ArrayList/ArrayList.h"
+#include "../CircularList, Assignment 6.2/LinkedList.h"
 
 class NiceKid
 {
 private:
 	string kidName;
-	ArrayList<string> giftList;
+	LinkedList<string> giftList;
 
 public:
-	NiceKid();
-	NiceKid(const string, ArrayList<string>);
-	~NiceKid();
+	NiceKid() = default;
+	~NiceKid() = default;
 
 	NiceKid& addGift();
 	NiceKid& removeGift();
@@ -21,9 +20,8 @@ public:
 	const int getGiftCount() const;
 
 	NiceKid& setKidName(const string);
-	NiceKid& setGiftList(const ArrayList<string>);
+	NiceKid& setGiftList(const LinkedList<string>&);
 	const string getKidName() const;
-	const ArrayList<string> getGiftList() const;
 
 	friend istream& operator >> (istream&, NiceKid&);
 	friend ostream& operator << (ostream&, const NiceKid&);

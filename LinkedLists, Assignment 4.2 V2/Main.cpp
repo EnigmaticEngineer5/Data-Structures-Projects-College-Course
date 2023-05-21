@@ -7,9 +7,16 @@ void removeOperations(DoublyLinkedBag<int>& namesList);
 int main()
 {
 	DoublyLinkedBag<int> namesList{};
+	namesList.addToBeginning(1);
+	namesList.addToBeginning(2);
+	namesList.addToBeginning(3);
+	namesList.addToBeginning(4);
+	namesList.addToBeginning(5);
+	namesList.addToBeginning(6);
+	namesList.addToBeginning(7);
+	cout << "\nSome numbers were added to the list for agilizing testing\n";
 
-	const enum Options
-	{
+	const enum Options {
 		addToBeginning = 1,
 		removeElement = 2,
 		displayListForward = 3,
@@ -19,9 +26,8 @@ int main()
 	};
 
 	int selectedOption{};
-	do
-	{
-		cout << "\n\n\t1) Add element to beginning of list"
+	do {
+		cout << "\n\t1) Add element to beginning of list"
 			<< "\n\t2) Remove element"
 			<< "\n\t3) Display list forward"
 			<< "\n\t4) Display list backward"
@@ -29,24 +35,20 @@ int main()
 			<< "\n\t6) Exit program"
 			<< "\nAnswer here --> ";
 		cin >> selectedOption;
-		while (cin.fail() || selectedOption < 1 || selectedOption > 6)
-		{
-			if (cin.fail())
-			{
+		while (cin.fail() || selectedOption < 1 || selectedOption > 6) {
+			if (cin.fail()) {
 				cin.clear();
 				cin.ignore(numeric_limits<streamsize>::max(), '\n');
 				cout << "\nPlease select a valid option --> ";
 				cin >> selectedOption;
 			}
-			else
-			{
+			else {
 				cout << "\nInvalid range, please re-enter --> ";
 				cin >> selectedOption;
 			}
 		}
 
-		switch (selectedOption)
-		{
+		switch (selectedOption) {
 		case addToBeginning:
 			addOperations(namesList);
 			namesList.displayForward();
@@ -123,7 +125,7 @@ void rotateNodes(DoublyLinkedBag<int>& namesList)
 			cout << "\nElement found...";
 		}
 		else {
-			cout << "\nThe element is not present in the list...";
+			cout << "\nThe element is not present in the list...\n";
 		}
 	}
 }

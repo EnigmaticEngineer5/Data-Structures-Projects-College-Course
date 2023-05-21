@@ -3,13 +3,14 @@
 template <class ItemType>
 class Node
 {
+private:
 	ItemType item;
+	Node<ItemType>* prev;
 	Node<ItemType>* next;
-	Node <ItemType>* prev;
 
 public:
 	Node();
-	Node(const ItemType&);
+	explicit Node(const ItemType&);
 	Node(const ItemType&, Node<ItemType>*, Node<ItemType>* = nullptr);
 	~Node();
 
@@ -37,18 +38,14 @@ inline Node<ItemType>::Node(const ItemType& sourceItem, Node<ItemType>* sourcePr
 template<class ItemType>
 inline Node<ItemType>::~Node()
 {
-	if (prev != nullptr)
-	{
+	if (prev != nullptr) {
 		prev = nullptr;
 	}
 
-	if (next != nullptr)
-	{
+	if (next != nullptr) {
 		delete next;
 		next = nullptr;
 	}
-
-	//cout << "\nNode released...";
 }
 
 template<class ItemType>
